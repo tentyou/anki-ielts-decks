@@ -1,0 +1,14 @@
+{
+  "actual_anki_import": "PASS",
+  "cards": 12155,
+  "morphology_or_family": 1454,
+  "existing_card_ids_preserved": true,
+  "simulated_review_schedule_preserved": true,
+  "test_collection": "isolated temporary collection; no user profile accessed",
+  "imported_fields": 25,
+  "new_module_counts": {
+    "EnglishDefinition": 11785,
+    "Derivatives": 3962,
+    "ExamExamples": 10219
+  }
+}

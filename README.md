@@ -4,15 +4,17 @@
 
 **[下载最新卡包](https://github.com/tentyou/anki-ielts-decks/releases/latest)** · **[反馈错误](https://github.com/tentyou/anki-ielts-decks/issues/new?template=correction.yml)**
 
-当前版本 **v0.2.0**：12,155 张卡片，17,091 句中英例句，738 个词条有选择性的构词提示或词族；只包含单词离线音频，约 73 MB。
+当前版本 **v0.3.0**：12,155 张卡片，17,091 句中英例句，11,785 条英英释义，1,454 个词条有构词提示或词族，3,962 个词条有派生词或词形；只包含单词离线音频。
 
-<img src="docs/card-preview.png" alt="含构词与词族的卡片预览" width="430">
+<img src="docs/card-preview.png" alt="v0.3.0 词典排版卡片预览" width="430">
+
+[下载 v0.3.0 卡片预览 HTML](docs/card-preview.html)（下载后用浏览器打开，预览中的发音按钮仅作占位）
 
 ## 内容
 
 - 正面显示英文单词和单词播放按钮；反面显示音标、中文释义、双语例句与来源。
-- 部分词条显示「构词与记忆」及「词族」，没有合适内容时整个栏目隐藏。
-- 构词采用现代前后缀、词基及常见词族，不把拼写相似当作词源。词基在派生时可能发生拼写变化。不同词义不能仅通过构词相加推导。
+- 部分词条显示「词根与词缀」、「词族」、「英英释义」及「派生词与词形」，没有合适内容时整个栏目隐藏。
+- 构词区分现代前后缀、词基、常见词族及少量有依据的外语词根，不把拼写相似当作词源。词基在派生时可能发生拼写变化。不同词义不能仅通过构词相加推导。
 - 单词发音为 Microsoft Zira Desktop 美式 TTS 生成的 MP3；不是依赖设备语音引擎的动态 TTS。音标沿用原站及先前补全，部分音标与美式发音存在差异。
 - 没有例句音频，没有联网音频脚本，不显示自动音标或未人工校订提示。
 - 卡片附词典与 GitHub 反馈入口。
@@ -25,7 +27,7 @@
 2. 在桌面 Anki 中导入。更新已有版本时，允许更新笔记与笔记类型，并打开合并笔记类型；需要时选择「始终更新」。
 3. 使用同一 AnkiWeb 账户同步到 AnkiDroid / AnkiMobile，等待媒体同步完成后再离线学习。
 
-沿用早期卡包的笔记 GUID、模型 ID、牌组 ID 和卡片模板序号。本版在原有 20 个字段末尾追加 `Morphology` 与 `WordFamily`，不改变旧字段次序；在独立 Anki 测试库验证升级及复习计划保留。导入仍可能覆盖你自己对原字段的修改，更新前请备份。
+沿用早期卡包的笔记 GUID、模型 ID、牌组 ID 和卡片模板序号。v0.2.0 追加 `Morphology` 与 `WordFamily`，v0.3.0 再追加 `EnglishDefinition`、`Derivatives`、`ExamExamples`，共 25 个字段，不改变旧字段次序；在独立 Anki 测试库验证升级及复习计划保留。导入仍可能覆盖你自己对原字段的修改，更新前请备份。
 
 从带例句音频的旧完整版升级不会自动删除旧媒体。需要释放空间时，在桌面 Anki「工具 → 检查媒体」中检查未使用文件后清理，再同步。
 
@@ -35,13 +37,36 @@
 
 例句含 Tatoeba、Global Voices 语料，以及编写的教学或模板练习句；部分中文由机器翻译补齐。**没有对全部例句逐句完成人工校订，也不保证消除了所有词义、语法和翻译问题。** 自动规则和词性模型只生成候选，不能作为语义正确性的证明。维护状态保存在 JSONL 的 `review` 字段，不在学习卡片上弹出提示。
 
-新增参考站 [雅思词典](https://isdc.pages.dev/) 匹配 11,798 个词条，用于交叉查阅及筛选词族。其词条与原表大多相同，不算独立验证；自动助记、派生词和真题材料没有整批复制到本项目。
+参考站 [雅思词典](https://isdc.pages.dev/) 匹配 11,798 个词条。英英释义经去重、长度和词性过滤，181 条重点词义另行修订；派生词只保留可核对的屈折变化与词族关系。新增构词候选中排除了 756 项，保留 716 项。`income = in-（不）+ come`、`legal = leg（腿）+ -al` 等自动拆词不会加入。已有同源资料不算独立验证，所有新增内容也未逐条完成人工审校。
+
+**真题模块放在普通例句下。** 为 10,219 个词条保留书目、Test／Passage／Part 位置、检索词形及匹配条数；书目默认折叠，点击可展开全部出处。位置来自原站，不能当作页码或官方逐句核验结果。按词形匹配不保证每个位置都采用当前词义，核对原题语境后再学习。真题原文没有整库转载，目前仅 `crane` 含一段 9 个英语单词的短引文及中文翻译。索引不是完整真题例句集。
+
+## 模块显示开关
+
+所有开关默认 `true`。在 Anki「卡片」编辑器的正面／背面模板底部找到 `var modules`，把需要隐藏的模块设为 `false`，两面请分别修改。下载包中已内嵌配置，不需要额外安装 JS 文件。源码维护时编辑 `templates/module-settings.js` 后重新构建即可同时更新两面。
+
+| 开关 | 控制内容 |
+| --- | --- |
+| `frequency` | 分组与频次 |
+| `wordAudio` | 单词播放按钮 |
+| `ipa` | 音标 |
+| `meaning` | 中文释义 |
+| `englishDefinition` | 英英释义 |
+| `morphology` | 词根与词缀 |
+| `wordFamily` | 词族 |
+| `derivatives` | 派生词与词形 |
+| `examples` | 普通双语例句 |
+| `examExamples` | 真题短引文与出处索引 |
+| `sources` | 词典及来源链接 |
+
+例如 `englishDefinition: false` 隐藏英英释义。没有内容的栏目会自动省略，即使开关为 `true` 也不会显示空标题。隐藏音频按钮不控制 Anki 自身的自动播放；需要静音时另行关闭牌组选项中的自动播放音频。
 
 ## 参与迭代
 
 - 单词、释义、例句、翻译：编辑 `deck-source/*.jsonl` 中相应词条；每行一条，`guid` 请保持不变。
 - 构词、词族：编辑 `deck-source/morphology.json`；优先有把握的现代构词，无可靠解释时留空。
 - 已知消歧例句：`deck-source/example-overrides.json` 保存本轮有意选择的双语例句。修改时同时更新 JSONL 与补丁，运行校验。
+- 英英释义、派生词与真题出处：`deck-source/enrichment/*.jsonl`；重点释义补丁为 `definition-overrides.json`，新增构词记录为 `reviewed-root-additions.json`。
 - 卡片外观：`templates/front.html`、`back.html`、`style.css`。
 - 提交 PR 前运行下面的检查；[贡献说明](CONTRIBUTING.md) 介绍如何提供语境和依据。
 
@@ -75,10 +100,22 @@ python scripts/build.py
 可选的实际 Anki 升级检查（需额外安装 `anki==26.9.3`）：
 
 ```sh
-python scripts/check_upgrade.py previous.apkg dist/anki-ielts-v0.2.0.apkg
+python scripts/check_upgrade.py previous.apkg dist/anki-ielts-v0.3.0.apkg
 ```
 
 此脚本新建临时测试库，导入前后版本、模拟一张已复习卡并检查卡片 ID 与计划保留，结束后关闭并清理测试库。
+
+## 更新 ISDC 参考资料
+
+可选安装 `requirements-import.txt`，将公开网页另存为 `work/isdc.html`，再运行：
+
+```sh
+node scripts/decode_isdc.cjs work/isdc.html work/isdc_raw.json
+python -m pip install -r requirements-import.txt
+python scripts/import_isdc.py work/isdc_raw.json
+```
+
+候选文件写入 `work/isdc-import/`，不会自动覆盖已审查数据。检查词义、词性、构词和来源后再合并到 `deck-source/enrichment/`。原始网页、完整真题正文和缓存不提交到 Git。导入工具不自动采纳原站拆词，构词须另行审查。
 
 ## 来源与许可
 

@@ -1,0 +1,21 @@
+{
+  "matched": 11798,
+  "definitions": 11785,
+  "exam_matches": 510103,
+  "exam_entries": 10219,
+  "exam_locations": 345958,
+  "excluded_exam_matches": 71273,
+  "derivative_entries": 3962,
+  "derivatives": 5996,
+  "definition_overrides": 181,
+  "new_morphology_entries": 716,
+  "total_morphology_entries": 1454,
+  "rejected_content_candidates": 0,
+  "short_quote_words": 9,
+  "exam_policy": "完整出处索引；仅一段9词短引文，不整库转载原题正文。",
+  "limitations": "自动结构与词性检查、重点复核，不等于全部词义人工审校。",
+  "rejections": [],
+  "morphology_candidates_removed_on_review": 756,
+  "definition_fields_withheld": 13,
+  "initial_definition_candidates_reviewed": 134
+}

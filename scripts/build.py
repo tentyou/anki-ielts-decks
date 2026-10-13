@@ -10,18 +10,19 @@ import time
 import zipfile
 from pathlib import Path
 import genanki
-from common import ROOT, load_sources, morphology_fields
+from common import ROOT, load_sources, morphology_fields, load_enrichment, extra_fields, compile_template
 from validate import validate
 
 
 def build(output, media_dir, text_only=False):
     stats = validate()
     config, notes, morphology = load_sources()
+    enrichment=load_enrichment()
     model = genanki.Model(config['model_id'], config['model_name'],
         fields=[{'name':name} for name in config['fields']],
         templates=[{'name':'英文 → 中文',
-            'qfmt':(ROOT/'templates/front.html').read_text(encoding='utf-8'),
-            'afmt':(ROOT/'templates/back.html').read_text(encoding='utf-8')}],
+            'qfmt':compile_template('front.html'),
+            'afmt':compile_template('back.html')}],
         css=(ROOT/'templates/style.css').read_text(encoding='utf-8'))
     decks = {int(did):genanki.Deck(int(did), data['name']) for did,data in config['decks'].items()}
     media = set()
@@ -29,6 +30,7 @@ def build(output, media_dir, text_only=False):
     for record in notes:
         fields = dict(record['fields'])
         fields['Morphology'],fields['WordFamily'] = morphology_fields(fields['Word'],morphology)
+        fields['EnglishDefinition'],fields['Derivatives'],fields['ExamExamples']=extra_fields(fields['Word'],enrichment)
         if text_only:
             fields['WordAudio']=''
         else:
@@ -66,7 +68,7 @@ def build(output, media_dir, text_only=False):
             assert con.execute('select count(*) from cards').fetchone()[0]==12155
             refs=set()
             for (raw_fields,) in con.execute('select flds from notes'):
-                values=raw_fields.split('\x1f');assert len(values)==22
+                values=raw_fields.split('\x1f');assert len(values)==len(config['fields'])
                 assert values[10] and values[11] and not values[17] and not values[18]
                 refs.update(re.findall(r'\[sound:([^\]]+)\]',raw_fields))
             assert refs==set(mapping.values())
@@ -76,12 +78,18 @@ def build(output, media_dir, text_only=False):
                  sha256=hashlib.sha256(output.read_bytes()).hexdigest(),
                  packaged_audio_files=len(media),text_only=text_only)
     output.with_suffix('.validation.json').write_text(json.dumps(stats,ensure_ascii=False,indent=2),encoding='utf-8')
+    template_dir=output.parent/'templates';template_dir.mkdir(exist_ok=True)
+    for name in ['front.html','back.html']:
+        (template_dir/name).write_text(compile_template(name),encoding='utf-8')
+    (template_dir/'style.css').write_text((ROOT/'templates/style.css').read_text(encoding='utf-8'),encoding='utf-8')
     print(json.dumps(stats,ensure_ascii=False,indent=2))
 
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser()
-    parser.add_argument('--output',type=Path,default=ROOT/'dist/anki-ielts-v0.2.0.apkg')
+    parser.add_argument('--output',type=Path)
     parser.add_argument('--media-dir',type=Path,default=ROOT/'media')
     parser.add_argument('--text-only',action='store_true')
-    args=parser.parse_args();build(args.output,args.media_dir,args.text_only)
+    args=parser.parse_args()
+    if args.output is None:args.output=ROOT/'dist'/('anki-ielts-v'+load_sources()[0]['version']+'.apkg')
+    build(args.output,args.media_dir,args.text_only)

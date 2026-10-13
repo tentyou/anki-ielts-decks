@@ -1,5 +1,10 @@
-<main id="FrontSide" class="CardSide">
- <div class="Top"><span class="Level">{{Group}}</span><a href="{{CambridgeURL}}">Cambridge ↗</a></div>
- <header class="Question"><div class="eyebrow">IELTS CORE VOCABULARY</div><h1 lang="en">{{Word}}</h1><div class="audio">{{WordAudio}}</div></header>
- <footer class="prompt">回忆中文释义，再翻面</footer>
+<main id="FrontSide" class="CardSide front">
+  <div class="card-meta" data-module="frequency">{{Group}}</div>
+  <header class="word-header">
+    <h1 lang="en">{{Word}}</h1>
+    <div class="word-audio" data-module="wordAudio">{{WordAudio}}</div>
+  </header>
+  <p class="recall-prompt">回忆中文释义，然后翻面。</p>
+  <nav class="card-sources" data-module="sources"><a href="{{CambridgeURL}}">Cambridge</a></nav>
 </main>
+<!-- MODULE_SETTINGS -->

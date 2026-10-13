@@ -2,7 +2,7 @@
 import html
 import json
 import re
-from common import ROOT, load_sources
+from common import ROOT, load_sources, load_enrichment
 
 
 def validate():
@@ -40,12 +40,29 @@ def validate():
         assert word in by_word, word
         assert item['source'].startswith('https://')
         for part in item['parts']:
-            assert part['form'] and part['meaning'] and part['type'] in {'base', 'prefix', 'suffix'}
+            assert part['form'] and part['meaning'] and part['type'] in {'base', 'root', 'prefix', 'suffix'}
         assert word not in item['family']
-    for word in ['liver', 'career', 'mission', 'station', 'shower', 'minor', 'passion', 'liable']:
+    for word in ['liver', 'career', 'station', 'shower', 'minor', 'passion', 'liable']:
         assert not morphology.get(word, {}).get('parts'), word
     assert morphology['interdependent']['parts'][0]['form'] == 'inter-'
     assert [p['form'] for p in morphology['reusable']['parts']] == ['re-', 'use', '-able']
+    assert any(p['form']=='miss-' and '送' in p['meaning'] for p in morphology['mission']['parts'])
+    enrichment=load_enrichment()
+    assert len(enrichment)==11798 and set(enrichment)<=set(by_word)
+    quotes=[]
+    for word,item in enrichment.items():
+        for derivative in item['derivatives']:
+            assert derivative['word'] and derivative['meaning']
+            assert derivative['word'].lower()!=word
+        for ref in item['exam_references']:
+            assert ref['book'] and ref['location'] and ref['form']
+            assert ref['occurrences']==len(ref['sentence_hashes'])
+            assert all(re.fullmatch('[a-f0-9]{20}',x) for x in ref['sentence_hashes'])
+            assert 'sentence' not in ref and 'text' not in ref
+            if ref.get('short_quote'):quotes.append(ref['short_quote'])
+    assert sum(len(re.findall(r"[A-Za-z]+",q)) for q in quotes)==9
+    switches=dict(re.findall(r'(\w+): (true|false)',(ROOT/'templates/module-settings.js').read_text(encoding='utf-8-sig')))
+    assert len(switches)==11 and set(switches.values())=={'true'}
     assert len(refs) == 12155
     for path in (ROOT / 'templates').iterdir():
         text = path.read_text(encoding='utf-8')
@@ -53,7 +70,10 @@ def validate():
         assert 'Example1Audio' not in text and 'Example2Audio' not in text
         assert '未人工校订' not in text and '自动转写' not in text
     return {'notes': len(notes), 'examples': sentences, 'morphology_or_family': len(morphology),
-            'word_audio_files': len(refs), 'sentence_audio_files': 0}
+            'word_audio_files': len(refs), 'sentence_audio_files': 0,
+            'english_definitions':sum(bool(x['english_definition']) for x in enrichment.values()),
+            'derivative_entries':sum(bool(x['derivatives']) for x in enrichment.values()),
+            'exam_index_entries':sum(bool(x['exam_references']) for x in enrichment.values())}
 
 
 if __name__ == '__main__':

@@ -5,7 +5,7 @@ import tempfile
 from pathlib import Path
 from anki.collection import Collection
 from anki.import_export_pb2 import ImportAnkiPackageRequest, ImportAnkiPackageOptions
-from common import ROOT
+from common import ROOT, load_sources
 
 
 if __name__ == '__main__':
@@ -29,13 +29,14 @@ if __name__ == '__main__':
             assert c.card_count()==12155
             card=c.get_card(cid);assert (card.type,card.queue,card.ivl,card.reps,card.due)==(2,2,5,3,10)
             morphology_count=0
+            field_count=len(load_sources()[0]["fields"])
             for nid in c.db.list('select id from notes'):
                 n=c.get_note(nid)
-                assert len(n.fields)==22 and n['Example1'] and n['Translation1']
+                assert len(n.fields)==field_count and n['Example1'] and n['Translation1']
                 assert n['WordAudio'] and not n['Example1Audio'] and not n['Example2Audio']
                 assert not n['Example2'] or n['Translation2']
                 morphology_count+=bool(n['Morphology'] or n['WordFamily'])
-            assert morphology_count==738
+            assert morphology_count==1454
             assert '自动转写' not in card.answer() and '未人工校订' not in card.answer()
         finally:
             c.close()

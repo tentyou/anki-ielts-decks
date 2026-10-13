@@ -1,6 +1,6 @@
 {
   "name": "雅思核心词汇12155",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "model_id": 1926101201,
   "model_name": "雅思词汇 · 英文认词",
   "fields": [
@@ -25,7 +25,10 @@
     "Example2Audio",
     "EntryNote",
     "Morphology",
-    "WordFamily"
+    "WordFamily",
+    "EnglishDefinition",
+    "Derivatives",
+    "ExamExamples"
   ],
   "decks": {
     "1926101211": {

@@ -1,0 +1,37 @@
+{
+  "layout": [
+    {
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "overflow": false
+    },
+    {
+      "width": 1000,
+      "overflow": false
+    }
+  ],
+  "module_switches_tested": [
+    "frequency",
+    "wordAudio",
+    "ipa",
+    "meaning",
+    "englishDefinition",
+    "morphology",
+    "wordFamily",
+    "derivatives",
+    "examples",
+    "examExamples",
+    "sources"
+  ],
+  "exam_after_examples": true,
+  "scanner_remaining": "Normal link hover underline; retained intentionally.",
+  "all_11_switches_logic_test": "PASS; scripts/test_module_settings.cjs",
+  "browser_visual_check": "PASS; day/night screenshots inspected",
+  "template_scanner_before": {
+    "groups": 2,
+    "hits": 3
+  }
+}

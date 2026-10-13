@@ -1,4 +1,66 @@
-.card{margin:0;padding:20px 16px;background:#f4f5f7;color:#263345;font-family:Arial,"Microsoft YaHei",sans-serif;font-size:19px;line-height:1.65;text-align:left}.CardSide{max-width:720px;margin:auto;background:#fff;border-radius:20px;padding:28px 32px;box-shadow:0 8px 32px #2633450a;box-sizing:border-box}.Top{display:flex;gap:12px;justify-content:space-between;align-items:center;font-size:12px}.Level{color:#577284;background:#edf3f5;padding:4px 10px;border-radius:8px}a{color:#668196;text-decoration:none}.Question{text-align:center;padding:40px 0 24px}.eyebrow{font-size:10px;letter-spacing:2px;color:#98a4af}h1{font-size:clamp(28px,6vw,44px);font-weight:650;line-height:1.3;margin:18px 0;overflow-wrap:anywhere}.compact{padding:15px 0 8px}.compact h1{margin:14px 0 10px}.audio{display:inline-flex;align-items:center}.replay-button svg{width:30px;height:30px}.replay-button svg circle{fill:#e9eff3}.replay-button svg path{fill:#607d91}.prompt{text-align:center;font-size:13px;color:#9ba5af;margin:24px 0 4px}.Answer{border-top:1px solid #e9edf0;padding:22px 0}.ipa{text-align:center;color:#7e8a98;font-family:"Segoe UI",Arial,sans-serif;font-size:20px}.meaning{font-size:23px;margin:20px 0 6px;white-space:pre-wrap}.label{font-size:11px;letter-spacing:1px;color:#8c9eac;display:inline-block;margin-right:14px;vertical-align:middle}.ipainfo{font-size:11px;color:#9aa4af;margin-top:10px}.SentenceList{list-style:none;margin:0;padding:0}.Sentence{border-top:1px solid #e9edf0;padding:19px 0}.sentence-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:7px}.en{font-size:20px;line-height:1.6}.cn{font-size:16px;color:#7a8795;margin-top:9px}.attribution{font-size:10px;color:#a4aeb7;margin-top:12px}.sources{font-size:12px;border-top:1px solid #e9edf0;padding-top:18px;margin-top:4px}.empty{font-size:14px;color:#8c9eac;border-top:1px solid #e9edf0;padding:20px 0}.nightMode.card,.night_mode.card{background:#131b25;color:#e0e7ef}.nightMode .CardSide,.night_mode .CardSide{background:#1c2734}.nightMode .Level,.night_mode .Level{background:#293a48;color:#b2c4d2}.nightMode .Answer,.nightMode .Sentence,.nightMode .sources,.nightMode .empty,.night_mode .Answer,.night_mode .Sentence,.night_mode .sources,.night_mode .empty{border-color:#32404f}@media(max-width:480px){.card{padding:10px 8px}.CardSide{padding:20px 19px;border-radius:14px}.Top{font-size:11px}.meaning{font-size:21px}.en{font-size:18px}.Question{padding-top:28px}.compact{padding-top:10px}}
-.entry-note{font-size:12px;line-height:1.6;background:#fff6e8;color:#8c6b37;border-radius:8px;padding:10px 12px;margin:10px 0}.nightMode .entry-note{background:#3d3324;color:#dfc797}.en strong{color:#386c8b;font-weight:650}.nightMode .en strong{color:#8fc2df}
-
-.morphology,.word-family{border-top:1px solid #e9edf0;padding:16px 0;font-size:16px}.morph-content{margin-top:6px;line-height:1.8}.morpheme{display:inline-block;margin:2px 0}.morpheme b{font-weight:600;color:#386c8b}.morpheme small{color:#7a8795;font-size:13px}.morph-plus{padding:0 7px;color:#9ba5af}.word-family{line-height:1.8}.nightMode .morphology,.nightMode .word-family,.night_mode .morphology,.night_mode .word-family{border-color:#32404f}.nightMode .morpheme b,.night_mode .morpheme b{color:#8fc2df}
+.card {
+  --paper: #ffffff;
+  --ink: #202326;
+  --muted: #60676d;
+  --rule: #dfe3e6;
+  --accent: #386c8b;
+  margin: 0;
+  padding: 28px 22px;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+  font-size: 18px;
+  line-height: 1.65;
+  text-align: left;
+}
+.CardSide { max-width: 760px; margin: 0 auto; }
+[hidden] { display: none !important; }
+.card-meta { color: var(--muted); font-size: 12px; margin-bottom: 14px; }
+.word-header { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+h1 { margin: 0; font-size: clamp(30px, 6vw, 42px); font-weight: 650; line-height: 1.25; overflow-wrap: anywhere; }
+h2 { margin: 0 0 9px; font-size: 13px; line-height: 1.5; font-weight: 600; color: var(--muted); }
+.ipa { margin: 9px 0 22px; color: var(--muted); font-family: "Segoe UI", Arial, sans-serif; font-size: 18px; }
+.meaning { margin-top: 24px; margin-bottom: 22px; font-size: 21px; white-space: pre-line; }
+.module { border-top: 1px solid var(--rule); padding: 18px 0; }
+.english-definition { font-size: 18px; }
+.morphology, .word-family, .derivatives { font-size: 16px; }
+.morpheme { display: inline; }
+.morpheme b { font-weight: 600; }
+.morpheme small { color: var(--muted); font-size: 14px; }
+.morph-plus { padding: 0 7px; color: var(--muted); }
+.morph-note { display: block; margin-top: 8px; color: var(--muted); font-size: 13px; }
+.derivative-list { margin: 0; }
+.derivative-row { display: grid; grid-template-columns: minmax(100px, 30%) 1fr; gap: 12px; margin: 7px 0; }
+.derivative-row dt { font-weight: 600; overflow-wrap: anywhere; }
+.derivative-row dd { margin: 0; color: var(--muted); }
+.sentence-list { margin: 0; padding: 0; list-style: none; }
+.sentence-list li + li { margin-top: 20px; }
+.en { font-size: 19px; }
+.en strong { font-weight: 650; }
+.cn { margin-top: 6px; color: var(--muted); font-size: 16px; }
+.attribution { margin-top: 7px; color: var(--muted); font-size: 11px; overflow-wrap: anywhere; }
+.exam-quote { margin: 0 0 14px; padding: 0; }
+.exam-location { font-size: 12px; color: var(--muted); }
+.exam-summary { margin: 0 0 10px; font-size: 13px; color: var(--muted); }
+.exam-book { margin: 8px 0; font-size: 14px; }
+.exam-book summary { cursor: pointer; font-weight: 600; padding: 4px 0; }
+.exam-book ol { margin: 6px 0 12px; padding-left: 20px; }
+.exam-book li { padding: 3px 0; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.card-sources { display: flex; flex-wrap: wrap; gap: 6px 16px; border-top: 1px solid var(--rule); padding-top: 16px; margin-top: 8px; font-size: 12px; }
+.word-audio { display: inline-flex; align-items: center; }
+.replay-button svg { width: 32px; height: 32px; }
+.replay-button svg circle { fill: #eef0f2; }
+.replay-button svg path { fill: #424a51; }
+.recall-prompt { color: var(--muted); margin: 40px 0 28px; font-size: 15px; }
+.front { padding-top: 28px; }
+.nightMode.card, .night_mode.card { --paper: #191c1f; --ink: #e8eaed; --muted: #aab0b6; --rule: #393f45; --accent: #8fc2df; }
+@media (max-width: 480px) {
+  .card { padding: 20px 16px; font-size: 17px; }
+  .module { padding: 16px 0; }
+  .meaning { font-size: 20px; }
+  .en { font-size: 18px; }
+  .derivative-row { grid-template-columns: minmax(88px, 32%) 1fr; gap: 10px; }
+}

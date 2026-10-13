@@ -1,0 +1,118 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Card preview</title><style>.card {
+  --paper: #ffffff;
+  --ink: #202326;
+  --muted: #60676d;
+  --rule: #dfe3e6;
+  --accent: #386c8b;
+  margin: 0;
+  padding: 28px 22px;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+  font-size: 18px;
+  line-height: 1.65;
+  text-align: left;
+}
+.CardSide { max-width: 760px; margin: 0 auto; }
+[hidden] { display: none !important; }
+.card-meta { color: var(--muted); font-size: 12px; margin-bottom: 14px; }
+.word-header { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+h1 { margin: 0; font-size: clamp(30px, 6vw, 42px); font-weight: 650; line-height: 1.25; overflow-wrap: anywhere; }
+h2 { margin: 0 0 9px; font-size: 13px; line-height: 1.5; font-weight: 600; color: var(--muted); }
+.ipa { margin: 9px 0 22px; color: var(--muted); font-family: "Segoe UI", Arial, sans-serif; font-size: 18px; }
+.meaning { margin-top: 24px; margin-bottom: 22px; font-size: 21px; white-space: pre-line; }
+.module { border-top: 1px solid var(--rule); padding: 18px 0; }
+.english-definition { font-size: 18px; }
+.morphology, .word-family, .derivatives { font-size: 16px; }
+.morpheme { display: inline; }
+.morpheme b { font-weight: 600; }
+.morpheme small { color: var(--muted); font-size: 14px; }
+.morph-plus { padding: 0 7px; color: var(--muted); }
+.morph-note { display: block; margin-top: 8px; color: var(--muted); font-size: 13px; }
+.derivative-list { margin: 0; }
+.derivative-row { display: grid; grid-template-columns: minmax(100px, 30%) 1fr; gap: 12px; margin: 7px 0; }
+.derivative-row dt { font-weight: 600; overflow-wrap: anywhere; }
+.derivative-row dd { margin: 0; color: var(--muted); }
+.sentence-list { margin: 0; padding: 0; list-style: none; }
+.sentence-list li + li { margin-top: 20px; }
+.en { font-size: 19px; }
+.en strong { font-weight: 650; }
+.cn { margin-top: 6px; color: var(--muted); font-size: 16px; }
+.attribution { margin-top: 7px; color: var(--muted); font-size: 11px; overflow-wrap: anywhere; }
+.exam-quote { margin: 0 0 14px; padding: 0; }
+.exam-location { font-size: 12px; color: var(--muted); }
+.exam-summary { margin: 0 0 10px; font-size: 13px; color: var(--muted); }
+.exam-book { margin: 8px 0; font-size: 14px; }
+.exam-book summary { cursor: pointer; font-weight: 600; padding: 4px 0; }
+.exam-book ol { margin: 6px 0 12px; padding-left: 20px; }
+.exam-book li { padding: 3px 0; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.card-sources { display: flex; flex-wrap: wrap; gap: 6px 16px; border-top: 1px solid var(--rule); padding-top: 16px; margin-top: 8px; font-size: 12px; }
+.word-audio { display: inline-flex; align-items: center; }
+.replay-button svg { width: 32px; height: 32px; }
+.replay-button svg circle { fill: #eef0f2; }
+.replay-button svg path { fill: #424a51; }
+.recall-prompt { color: var(--muted); margin: 40px 0 28px; font-size: 15px; }
+.front { padding-top: 28px; }
+.nightMode.card, .night_mode.card { --paper: #191c1f; --ink: #e8eaed; --muted: #aab0b6; --rule: #393f45; --accent: #8fc2df; }
+@media (max-width: 480px) {
+  .card { padding: 20px 16px; font-size: 17px; }
+  .module { padding: 16px 0; }
+  .meaning { font-size: 20px; }
+  .en { font-size: 18px; }
+  .derivative-row { grid-template-columns: minmax(88px, 32%) 1fr; gap: 10px; }
+}
+.preview-audio{font-size:13px;color:#607d91;padding:4px 0}</style><body class="card"><main id="BackSide" class="CardSide back">
+  <div class="card-meta" data-module="frequency">出现10~19次 · 16 次</div>
+  <header class="word-header">
+    <h1 lang="en">interdependent</h1>
+    <div class="word-audio" data-module="wordAudio"><span class="preview-audio">▶ 单词发音</span></div>
+  </header>
+  <div class="ipa" data-module="ipa">/ˌɪntədɪˈpendənt/</div>
+  <section class="meaning" data-module="meaning"><h2>中文释义</h2><div>adj. 互相依赖的；相倚的</div></section>
+  <section class="module english-definition" data-module="englishDefinition"><h2>英英释义</h2><div lang="en">If two or more things are interdependent, they depend on each other.</div></section>
+  <section class="module morphology" data-module="morphology"><h2>词根与词缀</h2><div><span class="morpheme"><b>inter-</b> <small>在…之间；相互</small></span><span class="morph-plus"> + </span><span class="morpheme"><b>dependent</b> <small>依靠的</small></span></div></section>
+  <section class="module word-family" data-module="wordFamily"><h2>词族</h2><div lang="en">depend · dependent · independent · interdependence · dependence · independence</div></section>
+  <section class="module derivatives" data-module="derivatives"><h2>派生词与词形</h2><dl class="derivative-list"><div class="derivative-row"><dt lang="en">interdependence</dt><dd>n. 互相依赖 <small>· 派生或同族词</small></dd></div><div class="derivative-row"><dt lang="en">depend</dt><dd>v. 依靠；依赖；取决于 <small>· 派生或同族词</small></dd></div><div class="derivative-row"><dt lang="en">dependence</dt><dd>n. 依赖；信赖 <small>· 派生或同族词</small></dd></div><div class="derivative-row"><dt lang="en">dependent</dt><dd>adj. 依靠的；依赖的；n. 受赡养者 <small>· 派生或同族词</small></dd></div><div class="derivative-row"><dt lang="en">independence</dt><dd>n. 独立；自主 <small>· 派生或同族词</small></dd></div><div class="derivative-row"><dt lang="en">independent</dt><dd>adj. 独立的；自主的 <small>· 派生或同族词</small></dd></div></dl></section>
+  <section class="module examples" data-module="examples">
+    <h2>例句</h2>
+    <ol class="sentence-list">
+      <li><div class="en" lang="en">Plants and insects are <strong>interdependent</strong>.</div><div class="cn">植物与昆虫相互依赖。</div><div class="attribution">练习例句</div></li>
+
+    </ol>
+  </section>
+  <section class="module exam-examples" data-module="examExamples"><h2>真题例句与出处</h2><p class="exam-summary">按词形检索的真题出处。展开书目查看卷次与题目位置；完整语境请核对原题。</p><details class="exam-book"><summary>机经 39 · 机经阅读 · 1 处</summary><ol><li>passage 2 · <span lang="en">interdependent</span> · 1 条匹配</li></ol></details></section>
+  <nav class="card-sources" data-module="sources">
+    <a href="https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/interdependent">Cambridge</a><a href="https://en.wiktionary.org/wiki/interdependent">Wiktionary</a><a href="https://iscorevoc.pages.dev/">原词表</a><a href="https://isdc.pages.dev/">ISDC 参考</a><a href="https://github.com/tentyou/anki-ielts-decks/issues/new?template=correction.yml">反馈纠错</a>
+  </nav>
+</main>
+<script>
+(function () {
+  // 模块显示开关：true 显示，false 隐藏。默认全部开启。
+  // 前面与背面的模板各有一份配置，编辑 Anki 模板时请分别修改。
+  var modules = {
+    frequency: true,
+    wordAudio: true,
+    ipa: true,
+    meaning: true,
+    englishDefinition: true,
+    morphology: true,
+    wordFamily: true,
+    derivatives: true,
+    examples: true,
+    examExamples: true,
+    sources: true
+  };
+  var sides = document.querySelectorAll('main.CardSide');
+  for (var i = 0; i < sides.length; i++) {
+    var elements = sides[i].querySelectorAll('[data-module]');
+    for (var j = 0; j < elements.length; j++) {
+      elements[j].hidden = modules[elements[j].getAttribute('data-module')] === false;
+    }
+  }
+})();
+
+</script>
+</body></html>
