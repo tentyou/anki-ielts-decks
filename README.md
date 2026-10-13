@@ -82,4 +82,4 @@ python scripts/check_upgrade.py previous.apkg dist/anki-ielts-v0.2.0.apkg
 
 ## 来源与许可
 
-本项目代码及原创构词说明采用 MIT；第三方词表、例句和其他内容保留各自权利与许可，详见 [来源与许可](docs/SOURCES.md)。原词表的公开再分发以维护者已取得的授权为依据，授权链接待维护者补充；不把该词表擅自改授为 MIT。
+本项目代码及原创构词说明采用 MIT；第三方词表、例句和其他内容保留各自权利与许可，详见 [来源与许可](docs/SOURCES.md)。维护者已确认取得原作者授权，并提供了[原帖链接](https://linux.do/t/topic/2863425)及沟通截图作为记录；该授权不等于将原词表改授为 MIT，具体沟通与范围见来源说明。
