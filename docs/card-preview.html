@@ -70,11 +70,18 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outli
 .check-update:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 .update-status { flex-basis: 100%; }
 .update-status:empty { display: none; }
+
+.word-audio { gap: 14px; flex-wrap: wrap; }
+.accent-audio { display: inline-flex; align-items: center; gap: 5px; }
+.accent-label { color: var(--muted); font-size: 12px; }
 .preview-audio{font-size:13px;color:#607d91;padding:4px 0}</style><body class="card"><main id="BackSide" class="CardSide back">
   <div class="card-meta" data-module="frequency">出现10~19次 · 16 次</div>
   <header class="word-header">
     <h1 lang="en">interdependent</h1>
-    <div class="word-audio" data-module="wordAudio"><span class="preview-audio">▶ 单词发音</span></div>
+    <div class="word-audio" data-module="wordAudio">
+      <span class="accent-audio" data-module="britishAudio"><span class="accent-label">英音</span><span class="preview-audio">▶</span></span>
+      <span class="accent-audio" data-module="americanAudio"><span class="accent-label">美音</span><span class="preview-audio">▶</span></span>
+    </div>
   </header>
   <div class="ipa" data-module="ipa">/ˌɪntədɪˈpendənt/</div>
   <section class="meaning" data-module="meaning"><h2>中文释义</h2><div>adj. 互相依赖的；相倚的</div></section>
@@ -94,7 +101,7 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outli
     <a href="https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/interdependent">Cambridge</a><a href="https://en.wiktionary.org/wiki/interdependent">Wiktionary</a><a href="https://iscorevoc.pages.dev/">原词表</a><a href="https://isdc.pages.dev/">ISDC 参考</a><a href="https://github.com/tentyou/anki-ielts-decks/issues/new?template=correction.yml">反馈纠错</a>
   </nav>
   <div class="deck-updates" data-module="updateCheck">
-    <span class="deck-version">v0.3.1</span>
+    <span class="deck-version">v0.4.0</span>
     <button type="button" class="check-update">检查更新</button>
     <a class="release-link" href="https://github.com/tentyou/anki-ielts-decks/releases/latest">版本与下载</a>
     <span class="update-status" role="status" aria-live="polite"></span>
@@ -107,6 +114,8 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outli
   var modules = {
     frequency: true,
     wordAudio: true,
+    britishAudio: true,
+    americanAudio: true,
     ipa: true,
     meaning: true,
     englishDefinition: true,
@@ -130,7 +139,7 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outli
 </script>
 <script>
 (function () {
-  var current = '0.3.1';
+  var current = '0.4.0';
   var endpoint = 'https://api.github.com/repos/tentyou/anki-ielts-decks/releases/latest';
   var storageKey = 'anki-ielts-release-check-v1';
   var stateKey = '__ankiIeltsReleaseCheck';

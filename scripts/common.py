@@ -78,3 +78,13 @@ def extra_fields(word, enrichment):
             body+='<li>'+html.escape(location)+' · <span lang="en">'+html.escape(form)+'</span> · '+str(len(hashes))+' 条匹配</li>'
         body+='</ol></details>'
     return definition,derivative_html,body
+
+
+def load_uk_audio():
+    return json.loads((ROOT/'deck-source/audio-uk.json').read_text(encoding='utf-8-sig'))
+
+
+def uk_audio_field(word, metadata):
+    name=metadata['words'][html.unescape(word).lower()]
+    assert re.fullmatch(r'tts_uk_[a-f0-9]{24}\.mp3',name)
+    return '[sound:'+name+']'

@@ -1,0 +1,91 @@
+{
+  "voice": "Microsoft Hazel Desktop",
+  "locale": "en-GB",
+  "files": 12155,
+  "uk_bytes": 52876804,
+  "generation_failures": 0,
+  "encoding": "MP3 mono 24kHz 32kbps; edge silence trimmed",
+  "decoded_non_silent_samples": [
+    {
+      "file": "tts_uk_00033b0814dfddc29213a688.mp3",
+      "mean_volume_db": -22.8
+    },
+    {
+      "file": "tts_uk_0c11f0b25d59546451a5fd08.mp3",
+      "mean_volume_db": -20.9
+    },
+    {
+      "file": "tts_uk_192a2c55a062838368f058ce.mp3",
+      "mean_volume_db": -18.3
+    },
+    {
+      "file": "tts_uk_25cf41993c542ca5b4ee1b38.mp3",
+      "mean_volume_db": -21.4
+    },
+    {
+      "file": "tts_uk_339accf0484710c235553a5e.mp3",
+      "mean_volume_db": -20.9
+    },
+    {
+      "file": "tts_uk_4117bc1a0f61631313c12342.mp3",
+      "mean_volume_db": -18.2
+    },
+    {
+      "file": "tts_uk_4d5a2d39a0d7ea7af5fcc365.mp3",
+      "mean_volume_db": -18.4
+    },
+    {
+      "file": "tts_uk_5958b72ca5145dc5d5c69f98.mp3",
+      "mean_volume_db": -17.3
+    },
+    {
+      "file": "tts_uk_663e9e66b8203dfdd13f4cd8.mp3",
+      "mean_volume_db": -20.1
+    },
+    {
+      "file": "tts_uk_726059c9ab715077609012d0.mp3",
+      "mean_volume_db": -22.5
+    },
+    {
+      "file": "tts_uk_7f4ebb90d5e5173737187f71.mp3",
+      "mean_volume_db": -19.7
+    },
+    {
+      "file": "tts_uk_8bbe1f6ff4ac8010395a01e8.mp3",
+      "mean_volume_db": -18.1
+    },
+    {
+      "file": "tts_uk_9829604e26fc0f56f83ddefa.mp3",
+      "mean_volume_db": -20.2
+    },
+    {
+      "file": "tts_uk_a4b06bee3570f7aae0745d19.mp3",
+      "mean_volume_db": -22.7
+    },
+    {
+      "file": "tts_uk_b1b679de3c7c078e12b4a6de.mp3",
+      "mean_volume_db": -17.1
+    },
+    {
+      "file": "tts_uk_bdd1bc4de64b7c7fe5d1e55a.mp3",
+      "mean_volume_db": -18.7
+    },
+    {
+      "file": "tts_uk_cb98ff57828a4e1d5ebd955d.mp3",
+      "mean_volume_db": -19.5
+    },
+    {
+      "file": "tts_uk_d98d0ff362c313e99989a68d.mp3",
+      "mean_volume_db": -20.4
+    },
+    {
+      "file": "tts_uk_e640585f7e762bb36a0fc785.mp3",
+      "mean_volume_db": -21.1
+    },
+    {
+      "file": "tts_uk_f2b082a2b193d628669d82e4.mp3",
+      "mean_volume_db": -20.1
+    }
+  ],
+  "limitations": "Sample decoding and non-silence checks, not exhaustive pronunciation review."
+}

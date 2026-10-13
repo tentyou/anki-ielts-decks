@@ -2,7 +2,7 @@ import sys
 import unittest
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
-from common import load_sources,morphology_fields,extra_fields,load_enrichment,compile_template
+from common import load_sources,morphology_fields,extra_fields,load_enrichment,compile_template,load_uk_audio,uk_audio_field
 from validate import validate
 
 
@@ -49,5 +49,20 @@ class DeckTests(unittest.TestCase):
         for word in ['income','legal','insurance']:
             self.assertFalse(m.get(word,{}).get('parts'),word)
 
+    def test_dual_accent_fields(self):
+        config,notes,_=load_sources()
+        self.assertEqual(len(config['fields']),26)
+        self.assertEqual(config['fields'][-1],'WordAudioUK')
+        metadata=load_uk_audio()
+        for note in notes:
+            self.assertNotEqual(uk_audio_field(note['fields']['Word'],metadata),note['fields']['WordAudio'])
+        for name in ['front.html','back.html']:
+            template=compile_template(name)
+            self.assertIn('{{WordAudioUK}}',template)
+            self.assertIn('data-module="britishAudio"',template)
+            self.assertIn('data-module="americanAudio"',template)
+        with self.assertRaises(AssertionError):
+            uk_audio_field('x',{'words':{'x':'../outside.mp3'}})
 
-if __name__=='__main__' :unittest.main()
+
+if __name__=='__main__'  :unittest.main()

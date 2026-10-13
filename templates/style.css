@@ -70,3 +70,7 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outli
 .check-update:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 .update-status { flex-basis: 100%; }
 .update-status:empty { display: none; }
+
+.word-audio { gap: 14px; flex-wrap: wrap; }
+.accent-audio { display: inline-flex; align-items: center; gap: 5px; }
+.accent-label { color: var(--muted); font-size: 12px; }

@@ -4,6 +4,8 @@
   var modules = {
     frequency: true,
     wordAudio: true,
+    britishAudio: true,
+    americanAudio: true,
     ipa: true,
     meaning: true,
     englishDefinition: true,

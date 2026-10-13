@@ -10,6 +10,7 @@ if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('package',type=Path)
     p.add_argument('--output',type=Path,default=ROOT/'media');a=p.parse_args()
     manifest=json.loads((ROOT/'deck-source/media-manifest.json').read_text(encoding='utf-8'))
+    manifest.update(json.loads((ROOT/'deck-source/media-manifest-uk.json').read_text(encoding='utf-8')))
     a.output.mkdir(parents=True,exist_ok=True)
     with zipfile.ZipFile(a.package) as z:
         mapping=json.loads(z.read('media'))

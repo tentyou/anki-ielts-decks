@@ -4,18 +4,18 @@
 
 **[下载最新卡包](https://github.com/tentyou/anki-ielts-decks/releases/latest)** · **[反馈错误](https://github.com/tentyou/anki-ielts-decks/issues/new?template=correction.yml)**
 
-当前版本 **v0.3.1**：12,155 张卡片，17,091 句中英例句，11,785 条英英释义，1,454 个词条有构词提示或词族，3,962 个词条有派生词或词形；只包含单词离线音频。
+当前版本 **v0.4.0**：12,155 张卡片，17,091 句中英例句，11,785 条英英释义，1,454 个词条有构词提示或词族，3,962 个词条有派生词或词形；只包含单词离线音频，每词提供英音和美音两个按钮，完整卡包约 127.9 MB。
 
-<img src="docs/card-preview.png" alt="v0.3.1 词典排版卡片预览" width="430">
+<img src="docs/card-preview.png" alt="v0.4.0 双音版卡片预览" width="430">
 
-[下载 v0.3.1 卡片预览 HTML](docs/card-preview.html)（下载后用浏览器打开，预览中的发音按钮仅作占位）
+[下载 v0.4.0 卡片预览 HTML](docs/card-preview.html)（下载后用浏览器打开，预览中的发音按钮仅作占位）
 
 ## 内容
 
 - 正面显示英文单词和单词播放按钮；反面显示音标、中文释义、双语例句与来源。
 - 部分词条显示「词根与词缀」、「词族」、「英英释义」及「派生词与词形」，没有合适内容时整个栏目隐藏。
 - 构词区分现代前后缀、词基、常见词族及少量有依据的外语词根，不把拼写相似当作词源。词基在派生时可能发生拼写变化。不同词义不能仅通过构词相加推导。
-- 单词发音为 Microsoft Zira Desktop 美式 TTS 生成的 MP3；不是依赖设备语音引擎的动态 TTS。音标沿用原站及先前补全，部分音标与美式发音存在差异。
+- 英音为 Microsoft Hazel Desktop（en-GB），美音为原有 Microsoft Zira Desktop（en-US），均为稍慢语速的离线 TTS MP3。英音使用单声道 24kHz／32kbps，并清理多余首尾静音；词组内部停顿保留。手机与 PC 播放同一录音，不依赖设备语音包。音标沿用原站及先前补全，仅显示一套，不代表两种口音完全相同；同形多音词也可能需要后续校订。
 - 没有例句音频，没有联网音频脚本，不显示自动音标或未人工校订提示。
 - 卡片附词典与 GitHub 反馈入口。
 
@@ -27,7 +27,7 @@
 2. 在桌面 Anki 中导入。更新已有版本时，允许更新笔记与笔记类型，并打开合并笔记类型；需要时选择「始终更新」。
 3. 使用同一 AnkiWeb 账户同步到 AnkiDroid / AnkiMobile，等待媒体同步完成后再离线学习。
 
-沿用早期卡包的笔记 GUID、模型 ID、牌组 ID 和卡片模板序号。v0.2.0 追加 `Morphology` 与 `WordFamily`，v0.3.0 再追加 `EnglishDefinition`、`Derivatives`、`ExamExamples`，共 25 个字段，不改变旧字段次序；在独立 Anki 测试库验证升级及复习计划保留。导入仍可能覆盖你自己对原字段的修改，更新前请备份。
+沿用早期卡包的笔记 GUID、模型 ID、牌组 ID 和卡片模板序号。v0.2.0 追加 `Morphology` 与 `WordFamily`，v0.3.0 再追加 `EnglishDefinition`、`Derivatives`、`ExamExamples`；v0.4.0 在末尾追加 `WordAudioUK`，共 26 个字段，原 `WordAudio` 继续保存美音，不改变旧字段次序；在独立 Anki 测试库验证升级及复习计划保留。导入仍可能覆盖你自己对原字段的修改，更新前请备份。
 
 从带例句音频的旧完整版升级不会自动删除旧媒体。需要释放空间时，在桌面 Anki「工具 → 检查媒体」中检查未使用文件后清理，再同步。
 
@@ -58,7 +58,9 @@ v0.3.1 起，正反面底部显示当前模板版本、「检查更新」和「�
 | 开关 | 控制内容 |
 | --- | --- |
 | `frequency` | 分组与频次 |
-| `wordAudio` | 单词播放按钮 |
+| `wordAudio` | 英音与美音按钮的总显示开关 |
+| `britishAudio` | 英音按钮 |
+| `americanAudio` | 美音按钮 |
 | `ipa` | 音标 |
 | `meaning` | 中文释义 |
 | `englishDefinition` | 英英释义 |
@@ -70,7 +72,7 @@ v0.3.1 起，正反面底部显示当前模板版本、「检查更新」和「�
 | `sources` | 词典及来源链接 |
 | `updateCheck` | 版本、自动检查及手动更新入口 |
 
-例如 `englishDefinition: false` 隐藏英英释义。没有内容的栏目会自动省略，即使开关为 `true` 也不会显示空标题。隐藏音频按钮不控制 Anki 自身的自动播放；需要静音时另行关闭牌组选项中的自动播放音频。
+例如 `englishDefinition: false` 隐藏英英释义。没有内容的栏目会自动省略，即使开关为 `true` 也不会显示空标题。英音、美音各用独立的原生 Anki 音频按钮。**开启 Anki 自动播放时，可能依次播放英音和美音；希望分别按需播放，请在牌组选项中关闭「自动播放音频」。** 隐藏某个口音按钮不会阻止 Anki 自身的自动播放；显示开关仅控制界面。
 
 ## 参与迭代
 
@@ -102,22 +104,30 @@ node scripts/test_update_check.cjs
 python scripts/build.py --text-only --output dist/text-only.apkg
 ```
 
-生成完整版本，先下载本项目任一含音频的发行卡包，并提取单词音频：
+生成完整版本，先下载本项目 v0.4.0 或以后的双音发行卡包，并提取单词音频：
 
 ```sh
 python scripts/extract_media.py path/to/downloaded.apkg
 python scripts/build.py
 ```
 
-音频通过 `media-manifest.json` 的 SHA-256 校验。`media/` 与 `dist/` 不进入 Git；成品及校验文件放在 Releases。构建可重现数据和模板内容；ZIP 时间戳与 Anki 修改时间会随构建变化，不承诺字节级完全相同。
+美音通过 `media-manifest.json`、英音通过 `media-manifest-uk.json` 的 SHA-256 校验；`audio-uk.json` 记录英音文件与词条的对应关系。`media/` 与 `dist/` 不进入 Git；成品及校验文件放在 Releases。构建可重现数据和模板内容；ZIP 时间戳与 Anki 修改时间会随构建变化，不承诺字节级完全相同。
 
 可选的实际 Anki 升级检查（需额外安装 `anki==26.9.3`）：
 
 ```sh
-python scripts/check_upgrade.py previous.apkg dist/anki-ielts-v0.3.1.apkg
+python scripts/check_upgrade.py previous.apkg dist/anki-ielts-v0.4.0.apkg
 ```
 
 此脚本新建临时测试库，导入前后版本、模拟一张已复习卡并检查卡片 ID 与计划保留，结束后关闭并清理测试库。
+
+在 Windows 上重新生成英音，需已安装 `en-GB` 文本转语音组件、可被 System.Speech 读取的 `Microsoft Hazel Desktop` 和 FFmpeg：
+
+```sh
+python scripts/generate_uk_audio.py --media-dir media --jobs 4 --ffmpeg path/to/ffmpeg.exe
+```
+
+此命令使用本机语音，不联网合成、不安装系统组件，可断点续跑；完成后会更新英音对应关系与校验清单。生成文件不进入 Git。
 
 ## 更新 ISDC 参考资料
 

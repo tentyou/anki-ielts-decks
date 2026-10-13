@@ -2,7 +2,10 @@
   <div class="card-meta" data-module="frequency">{{Group}} · {{Frequency}} 次</div>
   <header class="word-header">
     <h1 lang="en">{{Word}}</h1>
-    <div class="word-audio" data-module="wordAudio">{{WordAudio}}</div>
+    <div class="word-audio" data-module="wordAudio">
+      <span class="accent-audio" data-module="britishAudio"><span class="accent-label">英音</span>{{WordAudioUK}}</span>
+      <span class="accent-audio" data-module="americanAudio"><span class="accent-label">美音</span>{{WordAudio}}</span>
+    </div>
   </header>
   <div class="ipa" data-module="ipa">/{{IPA}}/</div>
   <section class="meaning" data-module="meaning"><h2>中文释义</h2><div>{{Meaning}}</div></section>

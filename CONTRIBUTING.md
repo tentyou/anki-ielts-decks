@@ -20,4 +20,6 @@ python scripts/build.py --text-only --output dist/test.apkg
 
 自动校验覆盖字段结构、已知错义、译文缺失、音频引用及一些构词误拆，不能替代语义复核。修复一种新错误时，补充能捕捉实际错误的回归检查。
 
-ISDC 新资料放在 `deck-source/enrichment/`，不要复制完整试题正文。真题出处保留原始书目、位置和检索词形，不能把源站位置编造成页码。模板显示开关统一维护在 `templates/module-settings.js`；默认全部开启。新增字段只可追加，当前共 25 个。
+ISDC 新资料放在 `deck-source/enrichment/`，不要复制完整试题正文。真题出处保留原始书目、位置和检索词形，不能把源站位置编造成页码。模板显示开关统一维护在 `templates/module-settings.js`；默认全部开启。新增字段只可追加，当前共 26 个。
+
+`WordAudio` 保留美音，`WordAudioUK` 为追加的英音字段。更换录音时同步更新对应的媒体校验清单；不要用一个口音的文件冒充另一口音。显示开关不能用于控制 Anki 原生自动播放。

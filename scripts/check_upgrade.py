@@ -33,14 +33,17 @@ if __name__ == '__main__':
             for nid in c.db.list('select id from notes'):
                 n=c.get_note(nid)
                 assert len(n.fields)==field_count and n['Example1'] and n['Translation1']
+                assert n['WordAudioUK'] and n['WordAudioUK']!=n['WordAudio']
                 assert n['WordAudio'] and not n['Example1Audio'] and not n['Example2Audio']
                 assert not n['Example2'] or n['Translation2']
                 morphology_count+=bool(n['Morphology'] or n['WordFamily'])
             assert morphology_count==1454
+            assert len(card.question_av_tags())==2
+            assert len(card.answer_av_tags())==2
             assert '自动转写' not in card.answer() and '未人工校订' not in card.answer()
         finally:
             c.close()
-    result={'actual_anki_import':'PASS','cards':12155,'morphology_or_family':morphology_count,
+    result={'actual_anki_import':'PASS','cards':12155,'fields':field_count,'accents_per_card':2,'morphology_or_family':morphology_count,
             'existing_card_ids_preserved':True,'simulated_review_schedule_preserved':True,
             'test_collection':'isolated temporary collection; no user profile accessed'}
     a.report.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')

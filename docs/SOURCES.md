@@ -44,7 +44,7 @@ https://isdc.pages.dev/ 提供词义、主例句、词根词缀与派生词。�
 
 ## 音频与工具
 
-单词 MP3 为本地 Microsoft Zira Desktop 生成的 TTS 录音。发行包只含生成的录音，不含 Microsoft 的语音引擎或语音安装组件；不是 Azure TTS，也不冒称真人录音。部分缺失 IPA 先前由 eSpeak NG 自动补全。
+单词 MP3 为本地 Microsoft Zira Desktop（美音 en-US）与 Microsoft Hazel Desktop（英音 en-GB）生成的 TTS 录音，语速均为 -1。发行包只含生成的录音，不含 Microsoft 的语音引擎或语音安装组件；不是 Azure TTS，也不冒称真人录音。部分缺失 IPA 先前由 eSpeak NG 自动补全。
 
 genanki 为构建依赖，按其自身许可证分发；仓库没有打包 Python 依赖源码或虚拟环境。NLTK 词性模型仅用于本地复核候选，未打包进入牌组和代码仓库；候选标注不代表已证实错误。
 

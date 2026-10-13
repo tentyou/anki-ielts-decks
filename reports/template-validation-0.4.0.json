@@ -1,0 +1,37 @@
+{
+  "layout": [
+    {
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "overflow": false
+    },
+    {
+      "width": 1000,
+      "overflow": false
+    }
+  ],
+  "module_switches_tested": [
+    "frequency",
+    "wordAudio",
+    "britishAudio",
+    "americanAudio",
+    "ipa",
+    "meaning",
+    "englishDefinition",
+    "morphology",
+    "wordFamily",
+    "derivatives",
+    "examples",
+    "examExamples",
+    "sources",
+    "updateCheck"
+  ],
+  "exam_after_examples": true,
+  "scanner_remaining": "Normal link hover underline; retained intentionally.",
+  "visual_check": "PASS; day/night screenshots inspected",
+  "native_audio_validation": "PASS; actual Anki question/answer each have 2 audio tags",
+  "device_limit": "Android/iOS physical devices not tested"
+}

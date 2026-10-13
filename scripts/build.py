@@ -10,7 +10,7 @@ import time
 import zipfile
 from pathlib import Path
 import genanki
-from common import ROOT, load_sources, morphology_fields, load_enrichment, extra_fields, compile_template
+from common import ROOT, load_sources, morphology_fields, load_enrichment, extra_fields, compile_template, load_uk_audio, uk_audio_field
 from validate import validate
 
 
@@ -18,6 +18,7 @@ def build(output, media_dir, text_only=False):
     stats = validate()
     config, notes, morphology = load_sources()
     enrichment=load_enrichment()
+    uk_audio=load_uk_audio()
     model = genanki.Model(config['model_id'], config['model_name'],
         fields=[{'name':name} for name in config['fields']],
         templates=[{'name':'英文 → 中文',
@@ -27,14 +28,17 @@ def build(output, media_dir, text_only=False):
     decks = {int(did):genanki.Deck(int(did), data['name']) for did,data in config['decks'].items()}
     media = set()
     manifest = json.loads((ROOT/'deck-source/media-manifest.json').read_text(encoding='utf-8'))
+    manifest.update(json.loads((ROOT/'deck-source/media-manifest-uk.json').read_text(encoding='utf-8')))
     for record in notes:
         fields = dict(record['fields'])
         fields['Morphology'],fields['WordFamily'] = morphology_fields(fields['Word'],morphology)
         fields['EnglishDefinition'],fields['Derivatives'],fields['ExamExamples']=extra_fields(fields['Word'],enrichment)
+        fields['WordAudioUK']=uk_audio_field(fields['Word'],uk_audio)
         if text_only:
             fields['WordAudio']=''
+            fields['WordAudioUK']=''
         else:
-            for name in re.findall(r'\[sound:([^\]]+)\]',fields['WordAudio']):
+            for name in re.findall(r'\[sound:([^\]]+)\]',fields['WordAudio']+fields['WordAudioUK']):
                 path=media_dir/name
                 if not path.is_file():raise FileNotFoundError(f'Missing {path}; extract media from a release first.')
                 assert hashlib.sha256(path.read_bytes()).hexdigest()==manifest[name]['sha256'],name

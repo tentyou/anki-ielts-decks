@@ -3,7 +3,7 @@ import argparse
 import html
 import re
 from pathlib import Path
-from common import ROOT, load_sources, morphology_fields, load_enrichment, extra_fields, compile_template
+from common import ROOT, load_sources, morphology_fields, load_enrichment, extra_fields, compile_template, load_uk_audio, uk_audio_field
 
 
 def render(template,fields):
@@ -11,7 +11,7 @@ def render(template,fields):
         template=re.sub(r'{{([#^])(\w+)}}(.*?){{/\2}}',
             lambda m:m[3] if bool(fields.get(m[2]))==(m[1]=='#') else '',template,flags=re.S)
     template=re.sub(r'{{(\w+)}}',lambda m:fields.get(m[1],''),template)
-    return re.sub(r'\[sound:([^\]]+)\]', '<span class="preview-audio">▶ 单词发音</span>',template)
+    return re.sub(r'\[sound:([^\]]+)\]', '<span class="preview-audio">▶</span>',template)
 
 
 if __name__=='__main__':
@@ -20,6 +20,7 @@ if __name__=='__main__':
     _,notes,m=load_sources();f=dict(next(n['fields'] for n in notes if n['fields']['Word'].lower()==a.word.lower()))
     f['Morphology'],f['WordFamily']=morphology_fields(f['Word'],m)
     f['EnglishDefinition'],f['Derivatives'],f['ExamExamples']=extra_fields(f['Word'],load_enrichment())
+    f['WordAudioUK']=uk_audio_field(f['Word'],load_uk_audio())
     css=(ROOT/'templates/style.css').read_text(encoding='utf-8')
     back=render(compile_template('back.html'),f)
     doc='<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Card preview</title><style>'+css+'.preview-audio{font-size:13px;color:#607d91;padding:4px 0}</style><body class="card">'+back+'</body></html>'

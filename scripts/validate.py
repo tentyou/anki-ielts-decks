@@ -2,7 +2,7 @@
 import html
 import json
 import re
-from common import ROOT, load_sources, load_enrichment
+from common import ROOT, load_sources, load_enrichment, load_uk_audio
 
 
 def validate():
@@ -62,15 +62,22 @@ def validate():
             if ref.get('short_quote'):quotes.append(ref['short_quote'])
     assert sum(len(re.findall(r"[A-Za-z]+",q)) for q in quotes)==9
     switches=dict(re.findall(r'(\w+): (true|false)',(ROOT/'templates/module-settings.js').read_text(encoding='utf-8-sig')))
-    assert len(switches)==12 and set(switches.values())=={'true'}
+    assert len(switches)==14 and set(switches.values())=={'true'}
     assert len(refs) == 12155
+    uk=load_uk_audio()
+    assert uk['locale']=='en-GB' and uk['voice']=='Microsoft Hazel Desktop'
+    assert set(uk['words'])==set(by_word)
+    uk_refs=set(uk['words'].values())
+    assert len(uk_refs)==12155 and not (uk_refs & refs)
+    uk_manifest=json.loads((ROOT/'deck-source/media-manifest-uk.json').read_text(encoding='utf-8'))
+    assert set(uk_manifest)==uk_refs
     for path in (ROOT / 'templates').iterdir():
         text = path.read_text(encoding='utf-8')
         assert '{{tts ' not in text
         assert 'Example1Audio' not in text and 'Example2Audio' not in text
         assert '未人工校订' not in text and '自动转写' not in text
     return {'notes': len(notes), 'examples': sentences, 'morphology_or_family': len(morphology),
-            'word_audio_files': len(refs), 'sentence_audio_files': 0,
+            'word_audio_files': len(refs)+len(uk_refs), 'us_audio_files':len(refs), 'uk_audio_files':len(uk_refs), 'sentence_audio_files': 0,
             'english_definitions':sum(bool(x['english_definition']) for x in enrichment.values()),
             'derivative_entries':sum(bool(x['derivatives']) for x in enrichment.values()),
             'exam_index_entries':sum(bool(x['exam_references']) for x in enrichment.values())}
