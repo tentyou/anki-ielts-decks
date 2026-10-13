@@ -49,3 +49,7 @@ https://isdc.pages.dev/ 提供词义、主例句、词根词缀与派生词。�
 genanki 为构建依赖，按其自身许可证分发；仓库没有打包 Python 依赖源码或虚拟环境。NLTK 词性模型仅用于本地复核候选，未打包进入牌组和代码仓库；候选标注不代表已证实错误。
 
 导入词形过滤使用 lemminflect（可选构建工具，按其自身许可证），不将其程序或模型打包进入卡片。
+
+## 更新检测实现
+
+参考 [anki-jlpt-decks 日中正面模板](https://github.com/5mdld/anki-jlpt-decks/blob/main/deck-source/templates/eggrolls-JLPT10k-v3.5-%E6%97%A5-%E4%B8%AD-front.html) 的「GitHub 最新发行版 + 本地缓存 + 卡片更新入口」思路。本项目重新实现数值版本比较、缓存与失败降级，未复制参考模板代码。

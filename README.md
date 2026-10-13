@@ -4,11 +4,11 @@
 
 **[下载最新卡包](https://github.com/tentyou/anki-ielts-decks/releases/latest)** · **[反馈错误](https://github.com/tentyou/anki-ielts-decks/issues/new?template=correction.yml)**
 
-当前版本 **v0.3.0**：12,155 张卡片，17,091 句中英例句，11,785 条英英释义，1,454 个词条有构词提示或词族，3,962 个词条有派生词或词形；只包含单词离线音频。
+当前版本 **v0.3.1**：12,155 张卡片，17,091 句中英例句，11,785 条英英释义，1,454 个词条有构词提示或词族，3,962 个词条有派生词或词形；只包含单词离线音频。
 
-<img src="docs/card-preview.png" alt="v0.3.0 词典排版卡片预览" width="430">
+<img src="docs/card-preview.png" alt="v0.3.1 词典排版卡片预览" width="430">
 
-[下载 v0.3.0 卡片预览 HTML](docs/card-preview.html)（下载后用浏览器打开，预览中的发音按钮仅作占位）
+[下载 v0.3.1 卡片预览 HTML](docs/card-preview.html)（下载后用浏览器打开，预览中的发音按钮仅作占位）
 
 ## 内容
 
@@ -30,6 +30,16 @@
 沿用早期卡包的笔记 GUID、模型 ID、牌组 ID 和卡片模板序号。v0.2.0 追加 `Morphology` 与 `WordFamily`，v0.3.0 再追加 `EnglishDefinition`、`Derivatives`、`ExamExamples`，共 25 个字段，不改变旧字段次序；在独立 Anki 测试库验证升级及复习计划保留。导入仍可能覆盖你自己对原字段的修改，更新前请备份。
 
 从带例句音频的旧完整版升级不会自动删除旧媒体。需要释放空间时，在桌面 Anki「工具 → 检查媒体」中检查未使用文件后清理，再同步。
+
+## 更新检测
+
+v0.3.1 起，正反面底部显示当前模板版本、「检查更新」和「版本与下载」。默认自动查询 GitHub 最新稳定发行版，成功结果缓存 24 小时；手动点击「检查更新」可立即重新查询。有新版时，链接显示「发现 v… · 下载」。下载 `.apkg` 后仍需手动导入、更新笔记类型并同步；此功能不会自动安装或修改复习计划。旧版 v0.3.0 及以前没有检测脚本，需要先手动升级一次。
+
+检测只请求 `https://api.github.com/repos/tentyou/anki-ielts-decks/releases/latest`，不上传单词、笔记或学习记录。6 秒超时；失败后自动检测延后 1 小时，保留已知的新版提示。断网自动检查静默失败，手动检查会提示使用下载入口。GitHub 无法访问、限流或客户端禁止跨域请求时，自动检测可能不可用，「版本与下载」仍可手动打开。
+
+采用 Windows Anki、AnkiDroid 和 AnkiMobile WebView 通用的 JavaScript／XMLHttpRequest，不需要插件；缓存无法写入时使用当前 WebView 内存缓存，关闭或重建 WebView 后可能重新检查，缓存不通过 AnkiWeb 同步。浏览器模拟、实际桌面 Anki 导入已验证，尚未在 Android／iOS 真机实测。
+
+`updateCheck: false` 隐藏整个检测模块并停止该面的自动请求，正反面分别设置。当前版本取构建时写入模板的版本号，不从笔记上可能累积的旧版本标签推断；只更新模板不等于已更新词条数据。
 
 ## 校订范围
 
@@ -58,6 +68,7 @@
 | `examples` | 普通双语例句 |
 | `examExamples` | 真题短引文与出处索引 |
 | `sources` | 词典及来源链接 |
+| `updateCheck` | 版本、自动检查及手动更新入口 |
 
 例如 `englishDefinition: false` 隐藏英英释义。没有内容的栏目会自动省略，即使开关为 `true` 也不会显示空标题。隐藏音频按钮不控制 Anki 自身的自动播放；需要静音时另行关闭牌组选项中的自动播放音频。
 
@@ -80,6 +91,9 @@ python -m venv .venv
 python -m pip install -r requirements.txt
 python scripts/validate.py
 python -m unittest discover -s tests -v
+# 可选，需要 Node.js：
+node scripts/test_module_settings.cjs
+node scripts/test_update_check.cjs
 ```
 
 只有源码时可以生成不带音频的测试卡包：
@@ -100,7 +114,7 @@ python scripts/build.py
 可选的实际 Anki 升级检查（需额外安装 `anki==26.9.3`）：
 
 ```sh
-python scripts/check_upgrade.py previous.apkg dist/anki-ielts-v0.3.0.apkg
+python scripts/check_upgrade.py previous.apkg dist/anki-ielts-v0.3.1.apkg
 ```
 
 此脚本新建临时测试库，导入前后版本、模拟一张已复习卡并检查卡片 ID 与计划保留，结束后关闭并清理测试库。

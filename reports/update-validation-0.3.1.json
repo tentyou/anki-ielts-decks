@@ -1,0 +1,22 @@
+{
+  "browser": "Edge headless",
+  "widths_no_horizontal_overflow": [
+    360,
+    430,
+    1000
+  ],
+  "cache_reload_no_request": true,
+  "manual_new_release_prompt": true,
+  "actual_github_request": {
+    "at": 1791868570467,
+    "latest": "v0.3.0",
+    "ok": true
+  },
+  "visual_check": "PASS; day/night screenshots inspected",
+  "device_limit": "Android/iOS physical devices not tested",
+  "logic_tests": "PASS: numeric versions, caches, manual retry, offline/timeout, blocked storage, hidden module and invalid releases",
+  "module_switches": 12,
+  "scanner_remaining": "Normal link hover underline; intentionally retained.",
+  "packaged_front_back_update_scripts": "PASS",
+  "actual_anki_upgrade": "PASS; upgrade-validation-0.3.1.json"
+}

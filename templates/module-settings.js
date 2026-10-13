@@ -12,6 +12,7 @@
     derivatives: true,
     examples: true,
     examExamples: true,
+    updateCheck: true,
     sources: true
   };
   var sides = document.querySelectorAll('main.CardSide');

@@ -64,6 +64,12 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outli
   .en { font-size: 18px; }
   .derivative-row { grid-template-columns: minmax(88px, 32%) 1fr; gap: 10px; }
 }
+.deck-updates { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; margin-top: 16px; color: var(--muted); font-size: 12px; }
+.check-update { border: 0; padding: 0; background: none; color: var(--accent); font: inherit; cursor: pointer; }
+.check-update:disabled { color: var(--muted); cursor: default; }
+.check-update:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.update-status { flex-basis: 100%; }
+.update-status:empty { display: none; }
 .preview-audio{font-size:13px;color:#607d91;padding:4px 0}</style><body class="card"><main id="BackSide" class="CardSide back">
   <div class="card-meta" data-module="frequency">出现10~19次 · 16 次</div>
   <header class="word-header">
@@ -87,6 +93,12 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outli
   <nav class="card-sources" data-module="sources">
     <a href="https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/interdependent">Cambridge</a><a href="https://en.wiktionary.org/wiki/interdependent">Wiktionary</a><a href="https://iscorevoc.pages.dev/">原词表</a><a href="https://isdc.pages.dev/">ISDC 参考</a><a href="https://github.com/tentyou/anki-ielts-decks/issues/new?template=correction.yml">反馈纠错</a>
   </nav>
+  <div class="deck-updates" data-module="updateCheck">
+    <span class="deck-version">v0.3.1</span>
+    <button type="button" class="check-update">检查更新</button>
+    <a class="release-link" href="https://github.com/tentyou/anki-ielts-decks/releases/latest">版本与下载</a>
+    <span class="update-status" role="status" aria-live="polite"></span>
+  </div>
 </main>
 <script>
 (function () {
@@ -103,6 +115,7 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outli
     derivatives: true,
     examples: true,
     examExamples: true,
+    updateCheck: true,
     sources: true
   };
   var sides = document.querySelectorAll('main.CardSide');
@@ -112,6 +125,104 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outli
       elements[j].hidden = modules[elements[j].getAttribute('data-module')] === false;
     }
   }
+})();
+
+</script>
+<script>
+(function () {
+  var current = '0.3.1';
+  var endpoint = 'https://api.github.com/repos/tentyou/anki-ielts-decks/releases/latest';
+  var storageKey = 'anki-ielts-release-check-v1';
+  var stateKey = '__ankiIeltsReleaseCheck';
+  var state = window[stateKey] || (window[stateKey] = {});
+  var elements = document.querySelectorAll('.deck-updates');
+  var element = elements[elements.length - 1];
+  if (!element || element.hidden) return;
+  var button = element.querySelector('.check-update');
+  var link = element.querySelector('.release-link');
+  var status = element.querySelector('.update-status');
+  var successTTL = 24 * 60 * 60 * 1000;
+  var failureTTL = 60 * 60 * 1000;
+
+  function version(value) {
+    var match = /^v?(\d+)\.(\d+)\.(\d+)$/.exec(value || '');
+    return match ? [Number(match[1]), Number(match[2]), Number(match[3])] : null;
+  }
+
+  function newer(candidate) {
+    var latest = version(candidate), installed = version(current);
+    if (!latest || !installed) return false;
+    for (var i = 0; i < 3; i++) {
+      if (latest[i] !== installed[i]) return latest[i] > installed[i];
+    }
+    return false;
+  }
+
+  function readCache() {
+    try {
+      var cached = JSON.parse(localStorage.getItem(storageKey));
+      if (cached && typeof cached.at === 'number') state.cache = cached;
+    } catch (_) { /* Some review webviews disable persistent storage. */ }
+    return state.cache || {};
+  }
+
+  function saveCache(cache) {
+    state.cache = cache;
+    try { localStorage.setItem(storageKey, JSON.stringify(cache)); } catch (_) {}
+  }
+
+  function render(cache, manual) {
+    if (!document.contains(element)) return;
+    button.disabled = false;
+    button.textContent = '检查更新';
+    link.textContent = newer(cache.latest) ? '发现 v' + version(cache.latest).join('.') + ' · 下载' : '版本与下载';
+    if (manual) {
+      status.textContent = cache.ok ? (newer(cache.latest) ? '下载后导入并同步。' : '当前已是最新版本。') : '暂时无法检查，请打开“版本与下载”。';
+    }
+  }
+
+  // Share one request across front/back renders in the same webview.
+  function request(done) {
+    if (state.pending) { state.pending.push(done); return; }
+    state.pending = [done];
+    var xhr, completed = false;
+    function finish(latest) {
+      if (completed) return;
+      completed = true;
+      var old = readCache();
+      var cache = { at: Date.now(), latest: latest || old.latest || '', ok: !!latest };
+      saveCache(cache);
+      var callbacks = state.pending;
+      state.pending = null;
+      for (var i = 0; i < callbacks.length; i++) callbacks[i](cache);
+    }
+    try {
+      xhr = new XMLHttpRequest();
+      xhr.open('GET', endpoint, true);
+      xhr.timeout = 6000;
+      xhr.onload = function () {
+        try {
+          var data = JSON.parse(xhr.responseText);
+          finish(xhr.status === 200 && !data.draft && !data.prerelease && version(data.tag_name) ? data.tag_name : '');
+        } catch (_) { finish(''); }
+      };
+      xhr.onerror = xhr.ontimeout = xhr.onabort = function () { finish(''); };
+      xhr.send();
+    } catch (_) { finish(''); }
+  }
+
+  function check(manual) {
+    var cache = readCache();
+    render(cache, false);
+    var age = Date.now() - (cache.at || 0);
+    if (!manual && age >= 0 && age < (cache.ok ? successTTL : failureTTL)) return;
+    button.disabled = true;
+    button.textContent = '检查中…';
+    request(function (result) { render(result, manual); });
+  }
+
+  button.onclick = function () { check(true); };
+  check(false);
 })();
 
 </script>

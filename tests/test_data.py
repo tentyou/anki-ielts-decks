@@ -40,6 +40,10 @@ class DeckTests(unittest.TestCase):
         back=compile_template('back.html')
         self.assertNotIn('<!-- MODULE_SETTINGS -->',back)
         self.assertIn('var modules',back)
+        self.assertNotIn('__DECK_VERSION__',back)
+        self.assertNotIn('<!-- UPDATE_CHECK -->',back)
+        self.assertIn('XMLHttpRequest',back)
+        self.assertIn('releases/latest',back)
         self.assertLess(back.index('data-module="examples"'),back.index('data-module="examExamples"'))
         _,_,m=load_sources()
         for word in ['income','legal','insurance']:

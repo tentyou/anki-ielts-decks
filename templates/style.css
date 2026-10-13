@@ -64,3 +64,9 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outli
   .en { font-size: 18px; }
   .derivative-row { grid-template-columns: minmax(88px, 32%) 1fr; gap: 10px; }
 }
+.deck-updates { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; margin-top: 16px; color: var(--muted); font-size: 12px; }
+.check-update { border: 0; padding: 0; background: none; color: var(--accent); font: inherit; cursor: pointer; }
+.check-update:disabled { color: var(--muted); cursor: default; }
+.check-update:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.update-status { flex-basis: 100%; }
+.update-status:empty { display: none; }

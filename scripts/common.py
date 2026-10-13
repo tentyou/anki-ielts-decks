@@ -37,7 +37,11 @@ def load_enrichment():
 def compile_template(name):
     template=(ROOT/'templates'/name).read_text(encoding='utf-8-sig')
     settings=(ROOT/'templates/module-settings.js').read_text(encoding='utf-8-sig')
-    return template.replace('<!-- MODULE_SETTINGS -->','<script>\n'+settings+'\n</script>')
+    version=json.loads((ROOT/'deck-source/config.json').read_text(encoding='utf-8'))['version']
+    updates=(ROOT/'templates/update-check.js').read_text(encoding='utf-8-sig')
+    return (template.replace('<!-- MODULE_SETTINGS -->','<script>\n'+settings+'\n</script>')
+            .replace('<!-- UPDATE_CHECK -->','<script>\n'+updates+'\n</script>')
+            .replace('__DECK_VERSION__',version))
 
 
 def extra_fields(word, enrichment):

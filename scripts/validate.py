@@ -62,7 +62,7 @@ def validate():
             if ref.get('short_quote'):quotes.append(ref['short_quote'])
     assert sum(len(re.findall(r"[A-Za-z]+",q)) for q in quotes)==9
     switches=dict(re.findall(r'(\w+): (true|false)',(ROOT/'templates/module-settings.js').read_text(encoding='utf-8-sig')))
-    assert len(switches)==11 and set(switches.values())=={'true'}
+    assert len(switches)==12 and set(switches.values())=={'true'}
     assert len(refs) == 12155
     for path in (ROOT / 'templates').iterdir():
         text = path.read_text(encoding='utf-8')
