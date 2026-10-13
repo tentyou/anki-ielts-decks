@@ -1,0 +1,1622 @@
+{
+  "review": "全量词性筛查1091个候选，重点复核223个名词/动词冲突；规则存在误报，未声称全量人工校订。",
+  "changed_entries": 95,
+  "new_override_entries": 67,
+  "changes": [
+    {
+      "word": "deposit",
+      "meaning": "n. 押金；存款",
+      "before": [
+        "Some people do not like to <strong>deposit</strong> their money in banks.",
+        "有些人不喜欢把钱存银行。",
+        "Sir, I would like to <strong>deposit</strong> my money. How do I do that?",
+        "先生，我要存钱，怎么存？"
+      ],
+      "after": [
+        "A <strong>deposit</strong> of fifty pounds is required to reserve the room.",
+        "预订房间需要支付五十英镑的押金。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "monitor",
+      "meaning": "v. 监控",
+      "before": [
+        "The nurses <strong>monitor</strong> the patient&#x27;s heart rate.",
+        "护士监控病人的心率。",
+        "I&#x27;ll <strong>monitor</strong> your progress from my computer.",
+        "我會用我的電腦監察你的進度。"
+      ],
+      "after": [
+        "The nurses <strong>monitor</strong> the patient&#x27;s heart rate.",
+        "护士监控病人的心率。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "soil",
+      "meaning": "n. 土壤",
+      "before": [
+        "It is still raining a lot today, and the <strong>soil</strong> is being broken up.",
+        "今天下这么大的雨，土松着呢。",
+        "The plants grow well in this rich <strong>soil</strong>.",
+        "这些植物在这片肥沃的土壤中生长良好。"
+      ],
+      "after": [
+        "The plants grow well in this rich <strong>soil</strong>.",
+        "这些植物在这片肥沃的土壤中生长良好。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "course",
+      "meaning": "n. 过程；课程；一道菜",
+      "before": [
+        "I leave it in your hands what <strong>course</strong> of action to take.",
+        "接下来该采取什么行动就交给你了。",
+        "She enrolled in a <strong>course</strong> on environmental science.",
+        "她报名参加了一门环境科学课程。"
+      ],
+      "after": [
+        "She enrolled in a <strong>course</strong> on environmental science.",
+        "她报名参加了一门环境科学课程。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "shower",
+      "meaning": "n. 淋浴",
+      "before": [
+        "I am in the habit of taking a <strong>shower</strong> in the morning.",
+        "我习惯早上洗澡。",
+        "I take a <strong>shower</strong> after exercise.",
+        "我运动后洗淋浴。"
+      ],
+      "after": [
+        "I take a <strong>shower</strong> after exercise.",
+        "我运动后洗淋浴。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "signature",
+      "meaning": "n. 签名",
+      "before": [
+        "Your <strong>signature</strong> is required at the bottom of the form.",
+        "表格底部需要你的签名。",
+        "I attached my <strong>signature</strong> to the document.",
+        "我簽署了文件。"
+      ],
+      "after": [
+        "Your <strong>signature</strong> is required at the bottom of the form.",
+        "表格底部需要你的签名。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "plate",
+      "meaning": "n. 盘子",
+      "before": [
+        "A picnic is easier on everyone if you use a paper <strong>plate</strong>.",
+        "用纸质餐盘的话，野餐就方便多了。",
+        "She put the bread on a clean <strong>plate</strong>.",
+        "她把面包放在一个干净的盘子里。"
+      ],
+      "after": [
+        "She put the bread on a clean <strong>plate</strong>.",
+        "她把面包放在一个干净的盘子里。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "refund",
+      "meaning": "n. 退款",
+      "before": [
+        "Can I get a <strong>refund</strong> for this train ticket?",
+        "这张火车票可以退款吗？",
+        "I had words with the manager of that store, because he refused to <strong>refund</strong> my money for the TV set that wasn&#x27;t operating properly.",
+        "我找商店经理谈了话，因为他拒绝为那不能用的电视退钱。"
+      ],
+      "after": [
+        "She received a full <strong>refund</strong> for the cancelled ticket.",
+        "她因车票取消而收到了全额退款。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "traditional",
+      "meaning": "adj. 传统的",
+      "before": [
+        "He is a painter, but he can&#x27;t paint in the <strong>traditional</strong> Chinese style.",
+        "他是个画家，但他不会画国画。",
+        "They wore <strong>traditional</strong> clothing for the festival.",
+        "他们穿着传统服装庆祝节日。"
+      ],
+      "after": [
+        "They wore <strong>traditional</strong> clothing for the festival.",
+        "他们穿着传统服装庆祝节日。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "central",
+      "meaning": "adj. 中央的；中心的",
+      "before": [
+        "Excuse me, but could you tell me how to get to <strong>Central</strong> Park?",
+        "不好意思，請問到中央公園要怎麼走?",
+        "Most large galaxies have a <strong>central</strong> supermassive black hole.",
+        "大多数大星系的中心都有一个超大质量黑洞。"
+      ],
+      "after": [
+        "The fountain stands in the <strong>central</strong> square.",
+        "喷泉坐落在中央广场上。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "rubber",
+      "meaning": "n. 橡胶",
+      "before": [
+        "<strong>Rubber</strong> is not hard: it gives way to pressure.",
+        "橡皮不硬：它在压力下会变形。",
+        "The tyres are made of <strong>rubber</strong>.",
+        "这些轮胎是用橡胶制成的。"
+      ],
+      "after": [
+        "The tyres are made of <strong>rubber</strong>.",
+        "这些轮胎是用橡胶制成的。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "new",
+      "meaning": "adj. 新的",
+      "before": [
+        "She bought a <strong>new</strong> bicycle yesterday.",
+        "她昨天买了一辆新自行车。",
+        "In a few minutes we&#x27;ll be landing at <strong>New</strong> Tokyo International Airport.",
+        "我们将于几分钟内降落在新东京国际机场。"
+      ],
+      "after": [
+        "She bought a <strong>new</strong> notebook yesterday.",
+        "她昨天买了一本新笔记本。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "radical",
+      "meaning": "adj. 根本的；彻底的；激进的",
+      "before": [
+        "The <strong>radical</strong> in the Chinese character for &quot;good&quot; is the character for &quot;woman&quot;.",
+        "“好”的部首是女。",
+        "She has a very <strong>radical</strong> opinion about the problem.",
+        "她對於這個問題有很激進的意見。"
+      ],
+      "after": [
+        "The proposal would bring <strong>radical</strong> changes to the system.",
+        "这项提议将给这个制度带来根本性的改变。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "convert",
+      "meaning": "v. 转换；转变；变换",
+      "before": [
+        "The cells have the capacity to <strong>convert</strong> food into energy.",
+        "細胞具有將食物轉化為能量的能力。",
+        "He is a recent <strong>convert</strong> to Catholicism.",
+        "他新近皈依的天主教徒。"
+      ],
+      "after": [
+        "The device can <strong>convert</strong> sunlight into electricity.",
+        "这个装置可以把阳光转换成电能。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "international",
+      "meaning": "adj. 国际的",
+      "before": [
+        "In a few minutes we&#x27;ll be landing at New Tokyo <strong>International</strong> Airport.",
+        "我们将于几分钟内降落在新东京国际机场。",
+        "At this language centre, about 15 <strong>international</strong> languages are taught, including English.",
+        "在這個語言中心，教授約15種國際語言，包括英語。"
+      ],
+      "after": [
+        "The university hosts an <strong>international</strong> conference each year.",
+        "这所大学每年举办一次国际会议。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "polish",
+      "meaning": "n. 光泽；上光剂；v. 擦亮；润色",
+      "before": [
+        "I speak a little <strong>Polish</strong>, just enough to make myself understood.",
+        "我会一点儿波兰语，受众人群：我自己...",
+        "I got him to <strong>polish</strong> my shoes.",
+        "我要他擦亮我的皮鞋。"
+      ],
+      "after": [
+        "Please <strong>polish</strong> the silver until it shines.",
+        "请把银器擦到发亮。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "breathe",
+      "meaning": "v. 呼吸；n. 呼吸；气息",
+      "before": [
+        "The book tells the story of a dragon that can&#x27;t <strong>breathe</strong> fire.",
+        "書裡講的是一條不會噴火的龍的故事。",
+        "The air we <strong>breathe</strong> consists of oxygen and nitrogen.",
+        "我们呼吸的空气是由氧气和氮气组成的。"
+      ],
+      "after": [
+        "Try to <strong>breathe</strong> slowly and deeply.",
+        "试着缓慢地深呼吸。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "head",
+      "meaning": "n. 头；脑袋；上端；首脑；v. 朝…行进；居首位；领导；adj. 头的；主要的",
+      "before": [
+        "She wore a helmet to protect her <strong>head</strong>.",
+        "她戴着头盔保护头部。",
+        "She&#x27;s a professor whose works you could stack up to <strong>head</strong> height.",
+        "那位是一个著作等身的教授。"
+      ],
+      "after": [
+        "She wore a helmet to protect her <strong>head</strong>.",
+        "她戴着头盔保护头部。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "maintain",
+      "meaning": "v. 保持；维护；坚持认为；供养",
+      "before": [
+        "Do transgender people need to continuously use hormones to <strong>maintain</strong> their sexual characteristics?",
+        "变性者需要不断服用激素来维持性别特征吗？",
+        "When chickens pancake-shape <strong>maintain</strong>, the tractor must have won again.",
+        "當雞像煎餅一樣平的時候, 那麼一定是拖拉機跑得比它們快。"
+      ],
+      "after": [
+        "Please <strong>maintain</strong> a safe distance from the machine.",
+        "请与机器保持安全距离。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "pedestrian",
+      "meaning": "n. 行人；步行者",
+      "before": [
+        "The interface of this website is somewhat <strong>pedestrian</strong>, but it’s simple.",
+        "這個網站的介面沒有甚麼新意，但是卻很簡潔。",
+        "",
+        ""
+      ],
+      "after": [
+        "The driver stopped to let a <strong>pedestrian</strong> cross the road.",
+        "司机停车让一名行人过马路。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "foster",
+      "meaning": "v. 培养；助长；抚养",
+      "before": [
+        "This song was written by <strong>Foster</strong>.",
+        "這首歌曲是由福斯特所寫的。",
+        "",
+        ""
+      ],
+      "after": [
+        "The programme aims to <strong>foster</strong> children&#x27;s creativity.",
+        "这个项目旨在培养儿童的创造力。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "wet",
+      "meaning": "adj. 湿的",
+      "before": [
+        "My shoes are <strong>wet</strong> from the rain.",
+        "我的鞋子被雨淋湿了。",
+        "Luciano might have the crowd behind him, but he&#x27;s still <strong>wet</strong> behind the ears.",
+        "虽然Luciano可能已经是出类拔萃，但他还是乳臭未干。"
+      ],
+      "after": [
+        "Her shoes were <strong>wet</strong> after the rain.",
+        "雨后她的鞋子是湿的。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "neglect",
+      "meaning": "n. 疏忽",
+      "before": [
+        "Thanks to television, boys and girls are apt to <strong>neglect</strong> reading books.",
+        "拜電視所賜，現在的小孩都不喜歡看書了。",
+        "Those people did not <strong>neglect</strong> their child because they used the Internet too much.",
+        "那两个人不是因为过于上网而忽视他们的孩子。"
+      ],
+      "after": [
+        "The building fell into disrepair through years of <strong>neglect</strong>.",
+        "这座建筑因多年的疏忽管理而失修。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "prior",
+      "meaning": "adj. 在前的",
+      "before": [
+        "The African Blog Awards were to take place <strong>prior</strong> to the conference.",
+        "非洲博客奖将于会议之前举行。",
+        "",
+        ""
+      ],
+      "after": [
+        "<strong>Prior</strong> experience is helpful for this job.",
+        "先前的经验对这份工作有帮助。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "fan",
+      "meaning": "n. 粉丝；风扇",
+      "before": [
+        "We turned on the <strong>fan</strong> to cool the room.",
+        "我们打开风扇给房间降温。",
+        "My older brother is a very enthusiastic soccer <strong>fan</strong>.",
+        "我的哥哥是很狂热的足球迷。"
+      ],
+      "after": [
+        "We turned on the <strong>fan</strong> to cool the room.",
+        "我们打开风扇给房间降温。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "leaf",
+      "meaning": "n. 叶；叶片",
+      "before": [
+        "A yellow <strong>leaf</strong> fell onto the path.",
+        "一片黄叶落在小路上。",
+        "A fallen <strong>leaf</strong> floated on the surface of the water.",
+        "水面浮着一片落葉。"
+      ],
+      "after": [
+        "A yellow <strong>leaf</strong> fell onto the path.",
+        "一片黄叶落在小路上。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "accent",
+      "meaning": "n. 口音",
+      "before": [
+        "It took a long time for me to get accustomed to the Venezuelan <strong>accent</strong>.",
+        "我花了好长时间才适应了委内瑞拉的口音。",
+        "She speaks English with a slight French <strong>accent</strong>.",
+        "她说英语时带一点法国口音。"
+      ],
+      "after": [
+        "She speaks English with a slight French <strong>accent</strong>.",
+        "她说英语时带一点法国口音。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "resolve",
+      "meaning": "v. 解决",
+      "before": [
+        "If you don&#x27;t <strong>resolve</strong> to become a good man, then you just won&#x27;t get a good woman.",
+        "如果你沒決心做好男人,那你就得不到好女人。",
+        "I hope they can <strong>resolve</strong> it amicably.",
+        "我希望他们能和平地解决。"
+      ],
+      "after": [
+        "We need to <strong>resolve</strong> the problem before Friday.",
+        "我们需要在星期五之前解决这个问题。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "trunk",
+      "meaning": "n. 树干；大衣箱；象鼻子",
+      "before": [
+        "The elephant lifted a branch with its <strong>trunk</strong>.",
+        "大象用鼻子卷起了一根树枝。",
+        "The apple does not fall far from the <strong>trunk</strong>.",
+        "蘋果掉落的地方不會離樹幹很遠。"
+      ],
+      "after": [
+        "The elephant lifted a branch with its <strong>trunk</strong>.",
+        "大象用鼻子卷起了一根树枝。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "cell",
+      "meaning": "n. 单元格；细胞；牢房；小房间",
+      "before": [
+        "The scientist examined a <strong>cell</strong> under the microscope.",
+        "科学家在显微镜下观察了一个细胞。",
+        "When he came to he found himself lying in a small, windowless <strong>cell</strong>.",
+        "他醒了過來，發現自己正躺在一間不見天日的狹小囚室裏。"
+      ],
+      "after": [
+        "The scientist examined a <strong>cell</strong> under the microscope.",
+        "科学家在显微镜下观察了一个细胞。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "draw",
+      "meaning": "v. 提取；画；吸引；拉",
+      "before": [
+        "She likes to <strong>draw</strong> pictures of animals.",
+        "她喜欢画动物。",
+        "The journalist wanted to write an article that would <strong>draw</strong> public attention to the issue.",
+        "記者想寫一篇文章，以便引起公眾對那件事情的注意。"
+      ],
+      "after": [
+        "She likes to <strong>draw</strong> pictures of animals.",
+        "她喜欢画动物。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "raise",
+      "meaning": "v. 增加；引起；筹募；提起；养育",
+      "before": [
+        "I&#x27;ll see to it that you have a <strong>raise</strong> after the first year.",
+        "我将确保你们在第一年后有一个增长。",
+        "The only useful answers are those that <strong>raise</strong> new questions.",
+        "只有能提出新问题的回答才是有用的回答。"
+      ],
+      "after": [
+        "The charity hopes to <strong>raise</strong> enough money for a new school.",
+        "这个慈善机构希望筹募足够的资金建一所新学校。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "tie",
+      "meaning": "v. 系；约束；与...成平局",
+      "before": [
+        "She helped him <strong>tie</strong> his <strong>tie</strong> because he didn&#x27;t know how to.",
+        "她帮他系了领带，因为他不会。",
+        "Please <strong>tie</strong> the rope to the post.",
+        "请把绳子系在柱子上。"
+      ],
+      "after": [
+        "Please <strong>tie</strong> the rope to the post.",
+        "请把绳子系在柱子上。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "brush",
+      "meaning": "n. 刷子；灌木丛；v. 刷",
+      "before": [
+        "Most people <strong>brush</strong> their teeth at least two times a day.",
+        "多数人每天至少刷两次牙。",
+        "Please <strong>brush</strong> your teeth before bed.",
+        "睡觉前请刷牙。"
+      ],
+      "after": [
+        "Please <strong>brush</strong> your teeth before bed.",
+        "睡觉前请刷牙。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "trick",
+      "meaning": "n. 诀窍；诡计",
+      "before": [
+        "The phone call was a <strong>trick</strong> to get him out of the house.",
+        "那通電話是引他離開房子的一個小把戲。",
+        "Felix was trying to <strong>trick</strong> Amelia to open the door.",
+        "菲力克斯当时试图哄骗阿米莉娅开门。"
+      ],
+      "after": [
+        "He used a clever <strong>trick</strong> to open the locked box.",
+        "他用一个巧妙的诀窍打开了锁着的盒子。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "jam",
+      "meaning": "n. 果酱",
+      "before": [
+        "She spread strawberry <strong>jam</strong> on the bread.",
+        "她把草莓果酱涂在面包上。",
+        "I spilled <strong>jam</strong> on the electric outlet and there was a short circuit.",
+        "我把果酱撒到电源插座上短路了。"
+      ],
+      "after": [
+        "She spread strawberry <strong>jam</strong> on the bread.",
+        "她把草莓果酱涂在面包上。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "locks",
+      "meaning": "n.锁",
+      "before": [
+        "The door <strong>locks</strong> automatically.",
+        "这个门会自己上锁。",
+        "",
+        ""
+      ],
+      "after": [
+        "The doors have strong <strong>locks</strong>.",
+        "这些门装有结实的锁。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "praise",
+      "meaning": "n. 赞美；赞扬",
+      "before": [
+        "People can accept <strong>praise</strong> more easily than criticism.",
+        "赞扬比批评更容易让人接受。",
+        "I cannot <strong>praise</strong> them too highly.",
+        "不管我怎么称赞他们，都不会过分。"
+      ],
+      "after": [
+        "Her work received <strong>praise</strong> from the whole team.",
+        "她的工作得到了整个团队的赞扬。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "crush",
+      "meaning": "v. 压碎；镇压",
+      "before": [
+        "She has a <strong>crush</strong> on the boy next door.",
+        "她看上了隔壁的那个男孩。",
+        "It looks like Tom has a <strong>crush</strong> on Mary.",
+        "看来汤姆热恋着玛丽。"
+      ],
+      "after": [
+        "Use a spoon to <strong>crush</strong> the soft fruit.",
+        "用勺子把软水果压碎。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "meet",
+      "meaning": "v. 见面；满足；遇见",
+      "before": [
+        "The track <strong>meet</strong> was called off on account of the heavy rain.",
+        "田徑運動會因天雨關係取消了。",
+        "<strong>Meet</strong> me at the lobby of the Imperial Hotel at 6:30 p.m.",
+        "下午六点半到帝国酒店的大堂找我。"
+      ],
+      "after": [
+        "We will <strong>meet</strong> outside the library at noon.",
+        "我们中午在图书馆外见面。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "consent",
+      "meaning": "n. 同意；允许",
+      "before": [
+        "Do you give your <strong>consent</strong> to the operation?",
+        "你是否同意手术？",
+        "We will only <strong>consent</strong> on that condition.",
+        "我们只会在那样的条件下同意。"
+      ],
+      "after": [
+        "You need the owner&#x27;s <strong>consent</strong> before making changes.",
+        "改动之前，你需要得到业主的同意。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "hit",
+      "meaning": "v. 打；击；碰撞；袭击；抨击；达到；n. 打；(演出等)成功",
+      "before": [
+        "The ball <strong>hit</strong> the window.",
+        "球击中了窗户。",
+        "She was <strong>hit</strong> by a car while she was crossing the street.",
+        "她过马路的时候被车撞了。"
+      ],
+      "after": [
+        "The ball <strong>hit</strong> the window.",
+        "球击中了窗户。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "remark",
+      "meaning": "v. 评论；注意到",
+      "before": [
+        "The <strong>remark</strong> you made at the party about Lisa&#x27;s weight was totally uncalled for.",
+        "你在聚会中针对Lisa体重作出的评论是完全不适当的。",
+        "The beginning of the trouble was his careless <strong>remark</strong>.",
+        "麻煩的開頭是他草率的評論。"
+      ],
+      "after": [
+        "She did not <strong>remark</strong> on the change in his appearance.",
+        "她没有评论他外貌的变化。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "cross",
+      "meaning": "v. 横过；穿过；交叉；n. 十字架；十字形记号；adj. 恼怒的",
+      "before": [
+        "Wait for the green light before you <strong>cross</strong> the road.",
+        "等绿灯亮了再过马路。",
+        "You must be careful of the traffic when you <strong>cross</strong> the street.",
+        "你橫穿馬路要小心。"
+      ],
+      "after": [
+        "Wait for the green light before you <strong>cross</strong> the road.",
+        "等绿灯亮了再过马路。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "reclaim",
+      "meaning": "v. 要求归还；收回；开垦；感化",
+      "before": [
+        "A broad-based national movement, <strong>Reclaim</strong> Naija, used Ushahidi-based platform to monitor elections.",
+        "一个基础广泛的全国运动“Reclaim Naija”利用基于 Ushahidi 的平台来监督选举。",
+        "",
+        ""
+      ],
+      "after": [
+        "Passengers can <strong>reclaim</strong> their luggage after landing.",
+        "乘客可以在飞机降落后取回行李。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "run",
+      "meaning": "v. 经营；跑步；n. 运转；跑",
+      "before": [
+        "When he saw a policeman coming, he began to <strong>run</strong> like anything.",
+        "看到警察走来，他猛地跑了开去。",
+        "She likes to <strong>run</strong> in the park every morning.",
+        "她喜欢每天早晨在公园跑步。"
+      ],
+      "after": [
+        "She likes to <strong>run</strong> in the park every morning.",
+        "她喜欢每天早晨在公园跑步。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "swamp",
+      "meaning": "n. 沼泽；湿地",
+      "before": [
+        "He lives alone in a little cottage in the <strong>swamp</strong>.",
+        "他獨自一人住在沼澤地裡的一棟小屋裡。",
+        "I don&#x27;t mean to <strong>swamp</strong> you.",
+        "我不想把你淹死。"
+      ],
+      "after": [
+        "The <strong>swamp</strong> is home to many kinds of birds.",
+        "这片沼泽是许多种鸟类的栖息地。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "slice",
+      "meaning": "n. 切片；薄片；部分；片段",
+      "before": [
+        "I want to <strong>slice</strong> these potatoes into strips.",
+        "我想把這些土豆切成絲。",
+        "Will you have another <strong>slice</strong> of pie?",
+        "你要再來一塊餡餅嗎？"
+      ],
+      "after": [
+        "She placed a <strong>slice</strong> of bread on the plate.",
+        "她把一片面包放在盘子上。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "tire",
+      "meaning": "v. 使疲倦；使厌烦",
+      "before": [
+        "I had to push my bicycle because I had a flat <strong>tire</strong>.",
+        "我得推我的自行车，因为有个轮胎漏气了。",
+        "The rear <strong>tire</strong> of my bicycle is flat.",
+        "我的自行車的後輪爆胎了。"
+      ],
+      "after": [
+        "Long journeys can <strong>tire</strong> young children.",
+        "长途旅行可能使年幼的孩子感到疲倦。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "faint",
+      "meaning": "adj. 微弱的",
+      "before": [
+        "After washing, the cat&#x27;s fur is soft and fluffy, and has a <strong>faint</strong> scent.",
+        "洗过澡后，猫咪的毛柔软又蓬松，还有淡淡的香味。",
+        "We could hear a <strong>faint</strong> sound in the distance.",
+        "我们能听到远处微弱的声音。"
+      ],
+      "after": [
+        "We could hear a <strong>faint</strong> sound in the distance.",
+        "我们能听到远处微弱的声音。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "patch",
+      "meaning": "n. 小块地；一小片",
+      "before": [
+        "Let&#x27;s <strong>patch</strong> up our argument.",
+        "咱们停止争吵和好吧。",
+        "",
+        ""
+      ],
+      "after": [
+        "A <strong>patch</strong> of grass grew beside the wall.",
+        "墙旁长着一小片草地。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "triumph",
+      "meaning": "n. 胜利",
+      "before": [
+        "As long as good people do nothing, evil will <strong>triumph</strong>.",
+        "只要好人袖手旁观，恶人就会得胜。",
+        "",
+        ""
+      ],
+      "after": [
+        "Winning the championship was a great <strong>triumph</strong> for the team.",
+        "赢得冠军对这个团队来说是一次伟大的胜利。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "bug",
+      "meaning": "n. 小虫子",
+      "before": [
+        "A small <strong>bug</strong> crawled across the leaf.",
+        "一只小虫子爬过叶子。",
+        "It&#x27;s not a <strong>bug</strong>, it&#x27;s an undocumented feature.",
+        "这不是一个漏洞，而是一个没有写进文档的特性。"
+      ],
+      "after": [
+        "A small <strong>bug</strong> crawled across the leaf.",
+        "一只小虫子爬过叶子。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "disgust",
+      "meaning": "n. 厌恶；反感",
+      "before": [
+        "I didn&#x27;t mean to <strong>disgust</strong> anyone.",
+        "我沒想讓人感到不適。",
+        "",
+        ""
+      ],
+      "after": [
+        "He looked at the spoiled food with <strong>disgust</strong>.",
+        "他厌恶地看着那些变质的食物。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "punch",
+      "meaning": "v. 拳打；打孔",
+      "before": [
+        "A <strong>punch</strong> is just a <strong>punch</strong>. A kick is just a kick.",
+        "出拳就是出拳。出脚就是出脚。",
+        "",
+        ""
+      ],
+      "after": [
+        "Do not <strong>punch</strong> holes in this document.",
+        "不要在这份文件上打孔。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "toast",
+      "meaning": "n. 烤面包片",
+      "before": [
+        "When he runs out of knives, Lyle butters his <strong>toast</strong> with a spoon.",
+        "沒有刀子的時候，萊爾在麵包上塗上奶油就用湯匙。",
+        "I had a slice of <strong>toast</strong> for breakfast.",
+        "我早餐吃了一片烤面包。"
+      ],
+      "after": [
+        "I had a slice of <strong>toast</strong> for breakfast.",
+        "我早餐吃了一片烤面包。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "splash",
+      "meaning": "n. 引人注目的人或物；溅污的斑点",
+      "before": [
+        "The final touch is to <strong>splash</strong> the cold blood all over the mix and viola.",
+        "最后一步是将冷血泼洒到混音和中提琴上。",
+        "",
+        ""
+      ],
+      "after": [
+        "A <strong>splash</strong> of paint stained the floor.",
+        "地板上留下了一块油漆溅污的斑点。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "crawl",
+      "meaning": "v. 爬；爬行",
+      "before": [
+        "I&#x27;m so embarrassed I could dig a hole and <strong>crawl</strong> into it.",
+        "我窘得想找個洞鑽進去。",
+        "The baby began to <strong>crawl</strong> across the floor.",
+        "婴儿开始在地板上爬行。"
+      ],
+      "after": [
+        "The baby began to <strong>crawl</strong> across the floor.",
+        "婴儿开始在地板上爬行。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "fabulous",
+      "meaning": "adj. 极好的",
+      "before": [
+        "It was a <strong>fabulous</strong> show which brought us an endless delight.",
+        "那是一个给我们带来无穷乐趣的传奇性的演出。",
+        "We had a <strong>fabulous</strong> holiday.",
+        "我们度过了一个极好的假期。"
+      ],
+      "after": [
+        "We had a <strong>fabulous</strong> holiday.",
+        "我们度过了一个极好的假期。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "gamble",
+      "meaning": "n. 赌博；冒险；打赌",
+      "before": [
+        "After Tom lost his job, he started to <strong>gamble</strong> to cope with his depression.",
+        "湯姆失業後，為了排遣鬱悶的心情而開始了賭博。",
+        "",
+        ""
+      ],
+      "after": [
+        "The investment was a risky <strong>gamble</strong>.",
+        "这项投资是一场风险很大的赌博。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "kick",
+      "meaning": "v. 踢；踹",
+      "before": [
+        "A punch is just a punch. A <strong>kick</strong> is just a <strong>kick</strong>.",
+        "出拳就是出拳。出脚就是出脚。",
+        "Bale was fouled, and his team was awarded a free <strong>kick</strong>.",
+        "贝尔被犯规了，球队获得了任意球。"
+      ],
+      "after": [
+        "Do not <strong>kick</strong> the ball towards the window.",
+        "不要把球踢向窗户。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "drinks",
+      "meaning": "n. 饮料；酒；“drink”的复数",
+      "before": [
+        "Tom always <strong>drinks</strong> at least three cups of coffee in the morning.",
+        "汤姆每天早上至少喝三杯咖啡。",
+        "After a couple of <strong>drinks</strong>, the guy was feeling no pain.",
+        "喝了幾杯酒後，這個傢伙就感覺不痛了。"
+      ],
+      "after": [
+        "Cold <strong>drinks</strong> are available at the counter.",
+        "柜台供应冷饮。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "shave",
+      "meaning": "v. 刮；剃",
+      "before": [
+        "It is pleasant to <strong>shave</strong> off my beard.",
+        "刮完胡子感觉很舒服。",
+        "I got a <strong>shave</strong> and a haircut.",
+        "我刮了鬍子並理了髮。"
+      ],
+      "after": [
+        "He needs to <strong>shave</strong> before the meeting.",
+        "开会之前他需要刮胡子。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "curse",
+      "meaning": "n. 诅咒；咒骂",
+      "before": [
+        "Yes, people usually <strong>curse</strong> at someone they are acquainted with.",
+        "對，人通常會對自己的熟人口出惡言。",
+        "",
+        ""
+      ],
+      "after": [
+        "The story says that a <strong>curse</strong> was placed on the castle.",
+        "故事说这座城堡受到了诅咒。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "kiss",
+      "meaning": "n. 吻",
+      "before": [
+        "If you buy me an ice cream, I&#x27;ll give you a <strong>kiss</strong>.",
+        "如果你買給我冰淇淋，我就親你一下。",
+        "He chose to <strong>kiss</strong> up to someone, but stepped on a landmine instead.",
+        "马屁拍在马脚上。"
+      ],
+      "after": [
+        "She gave her child a <strong>kiss</strong> before leaving.",
+        "她离开前亲吻了孩子一下。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "pledge",
+      "meaning": "n. 保证",
+      "before": [
+        "Unity, justice and freedom are the <strong>pledge</strong> of fortune.",
+        "团结、公正和自由是幸福的保证。",
+        "I <strong>pledge</strong> allegiance to the flag.",
+        "我向國旗宣誓效忠。"
+      ],
+      "after": [
+        "The company made a <strong>pledge</strong> to reduce waste.",
+        "公司作出了减少浪费的保证。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "shine",
+      "meaning": "v. 发光；照耀",
+      "before": [
+        "Whether rain or <strong>shine</strong>, I go to the park every day to run.",
+        "不管下不下雨，我都每天去公园跑步。",
+        "I make it a point to <strong>shine</strong> my shoes before I go to bed.",
+        "我提出这一点之前，我的鞋和我去睡觉。"
+      ],
+      "after": [
+        "The stars <strong>shine</strong> brightly on a clear night.",
+        "晴朗的夜晚，星星明亮地闪耀。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "coexist",
+      "meaning": "v. 共存",
+      "before": [
+        "The other partners are the organizations <strong>CoExist</strong> already works with; places where interventions have already taken place as part of our awareness program.",
+        "「共存」的目的是希望建立在地的组织并宣扬宗教之间的和平共处。",
+        "",
+        ""
+      ],
+      "after": [
+        "Different species can <strong>coexist</strong> in the same habitat.",
+        "不同物种可以在同一栖息地共存。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "tires",
+      "meaning": "v. （使）疲劳( tire的第三人称单数 )；对（做）某事感到厌倦",
+      "before": [
+        "Take a look at these <strong>tires</strong>.",
+        "來看看這些車胎。",
+        "One of your <strong>tires</strong> is flat.",
+        "你的轮胎爆了一个。"
+      ],
+      "after": [
+        "The long journey <strong>tires</strong> him.",
+        "长途旅行使他感到疲倦。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "toss",
+      "meaning": "v. （随意地）抛掷；甩",
+      "before": [
+        "The coin <strong>toss</strong> decides who will kick off the match.",
+        "裁判抛硬币来决定谁来开球。",
+        "Let&#x27;s decide with a coin <strong>toss</strong>.",
+        "讓我們扔硬币決定吧。"
+      ],
+      "after": [
+        "<strong>Toss</strong> the ball gently to your partner.",
+        "把球轻轻抛给你的同伴。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "bribe",
+      "meaning": "v. 贿赂",
+      "before": [
+        "The mayor denied having taken a <strong>bribe</strong>.",
+        "市长否认收受了贿赂。",
+        "",
+        ""
+      ],
+      "after": [
+        "They tried to <strong>bribe</strong> the official, but he refused the money.",
+        "他们试图贿赂那名官员，但他拒绝收钱。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "brushes",
+      "meaning": "n. 刷子；“brush”的复数",
+      "before": [
+        "I&#x27;ve bought a new palette and a few paint <strong>brushes</strong>.",
+        "我買了一個新的調色盤和幾支水彩筆。",
+        "She said that she <strong>brushes</strong> her teeth every morning.",
+        "她說她每天早上都會刷牙。"
+      ],
+      "after": [
+        "The artist cleaned her <strong>brushes</strong> after painting.",
+        "画家画完画后清洗了她的刷子。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "preface",
+      "meaning": "n. 序言；前言",
+      "before": [
+        "And those with nothing particularly remarkable to <strong>preface</strong> their reason for traveling with-it was their right, after all.",
+        "而那些没有什么特别值得注意的理由来说明他们旅行的理由的人——毕竟这是他们的权利。",
+        "",
+        ""
+      ],
+      "after": [
+        "The author explains his purpose in the <strong>preface</strong>.",
+        "作者在序言中解释了他的写作目的。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "specialty",
+      "meaning": "n. 特色食品",
+      "before": [
+        "Let’s order the lobster! I’ve heard that’s the <strong>specialty</strong> dish here.",
+        "让我们点龙虾！听说是这里的招牌菜。",
+        "The restaurant&#x27;s <strong>specialty</strong> is grilled fish.",
+        "这家餐馆的特色菜是烤鱼。"
+      ],
+      "after": [
+        "The restaurant&#x27;s <strong>specialty</strong> is grilled fish.",
+        "这家餐馆的特色菜是烤鱼。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "fuse",
+      "meaning": "v. 由于保险丝烧断而电路不通；熔接；结合",
+      "before": [
+        "No sooner had Tom turned on the TV than the <strong>fuse</strong> blew.",
+        "湯姆一打開電視，保險絲就燒了。",
+        "",
+        ""
+      ],
+      "after": [
+        "Heat can <strong>fuse</strong> the two pieces of metal together.",
+        "热可以把两块金属熔接在一起。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "jog",
+      "meaning": "v. 慢跑；轻碰；轻撞",
+      "before": [
+        "The man next door said he goes for a <strong>jog</strong> every morning.",
+        "隔壁帅哥说他每天都去慢跑。",
+        "",
+        ""
+      ],
+      "after": [
+        "I <strong>jog</strong> in the park every morning.",
+        "我每天早晨在公园慢跑。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "shiver",
+      "meaning": "v. 哆嗦；颤抖",
+      "before": [
+        "The mere thought of a snake makes me <strong>shiver</strong>.",
+        "一想到蛇就發顫。",
+        "The castle is haunted, he said with a <strong>shiver</strong>.",
+        "他邊顫抖邊說：「那座城堡有鬼。」"
+      ],
+      "after": [
+        "She began to <strong>shiver</strong> in the cold wind.",
+        "她在寒风中开始颤抖。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "sue",
+      "meaning": "v. 起诉；控告；请求",
+      "before": [
+        "At last, John and <strong>Sue</strong> decided to cut the apple into halves.",
+        "約翰和蘇最後決定把蘋果切成兩半。",
+        "<strong>Sue</strong> checked in at the Royal Hotel.",
+        "蘇在皇家飯店登記投宿。"
+      ],
+      "after": [
+        "The customers decided to <strong>sue</strong> the company.",
+        "顾客们决定起诉这家公司。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "vent",
+      "meaning": "n. 排气口",
+      "before": [
+        "I am really extremely angry, so I plan to smash things to <strong>vent</strong> my anger.",
+        "我實在氣得不得了，所以打算砸東西發洩。",
+        "",
+        ""
+      ],
+      "after": [
+        "Hot air escapes through a <strong>vent</strong> in the roof.",
+        "热空气通过屋顶的排气口排出。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "hop",
+      "meaning": "v. 跃过；跳跃",
+      "before": [
+        "Let me know beforehand instead of catching me on the <strong>hop</strong> at the last minute.",
+        "事先打个招呼，别叫我临时抓瞎。",
+        "",
+        ""
+      ],
+      "after": [
+        "The rabbit can <strong>hop</strong> over the low fence.",
+        "兔子能跃过低矮的栅栏。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "avail",
+      "meaning": "v. （与of连用）利用",
+      "before": [
+        "He was glad to <strong>avail</strong> himself of any means to succeed in life.",
+        "他很高兴能通过各种方法在人生中取得成功。",
+        "The doctors did all they could to control Tom&#x27;s disease but, sadly, to no <strong>avail</strong>.",
+        "医生们尽力控制汤姆的病情了但可惜无法奏效。"
+      ],
+      "after": [
+        "You should <strong>avail</strong> yourself of this opportunity.",
+        "你应该利用这个机会。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "dwarf",
+      "meaning": "n. 侏儒；矮子；矮星",
+      "before": [
+        "The populations of China and India <strong>dwarf</strong> those of every other nation.",
+        "中国和印度的人口超过了其他任何国家。",
+        "Once upon a time there was a <strong>dwarf</strong> that lived in the forest.",
+        "從前有個侏儒住在森林裡。"
+      ],
+      "after": [
+        "The Sun is classified as a <strong>dwarf</strong> star.",
+        "太阳被归类为矮星。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "clamp",
+      "meaning": "n. 夹具",
+      "before": [
+        "My fingers <strong>clamp</strong> when I type its name, wanting to spell &quot;Feliz&quot; instead.",
+        "当我输入它的名字时，我的手指夹紧，想拼写“Feliz”。",
+        "",
+        ""
+      ],
+      "after": [
+        "Use a <strong>clamp</strong> to hold the wood in place.",
+        "用夹具把木头固定住。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "buzz",
+      "meaning": "n. 嗡嗡声",
+      "before": [
+        "A few wall and log hives <strong>buzz</strong> with active Asian honeybee colonies.",
+        "一些墙壁和圆木蜂巢里充满了活跃的亚洲蜂群。",
+        "",
+        ""
+      ],
+      "after": [
+        "We could hear the <strong>buzz</strong> of insects in the garden.",
+        "我们能听到花园里昆虫的嗡嗡声。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "hiccup",
+      "meaning": "n. 打嗝声",
+      "before": [
+        "I <strong>hiccup</strong> a lot.",
+        "我经常打嗝。",
+        "",
+        ""
+      ],
+      "after": [
+        "A loud <strong>hiccup</strong> interrupted his speech.",
+        "一声响亮的打嗝声打断了他的讲话。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "kindle",
+      "meaning": "v. 点燃；生火；激起；发亮",
+      "before": [
+        "So periodicals do not arrive automatically, and you cannot browse for new books on the <strong>Kindle</strong> itself.",
+        "因此，期刊不会自动到达，您也无法在 Kindle 上浏览新书。",
+        "",
+        ""
+      ],
+      "after": [
+        "Dry leaves can help <strong>kindle</strong> a fire.",
+        "干树叶可以帮助生火。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "slit",
+      "meaning": "n. 裂缝；狭长的切口",
+      "before": [
+        "Tom <strong>slit</strong> his own throat.",
+        "汤姆自刎了。",
+        "",
+        ""
+      ],
+      "after": [
+        "Light came through a narrow <strong>slit</strong> in the curtain.",
+        "光从窗帘的一条狭长裂缝中透了进来。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "violet",
+      "meaning": "n. 紫罗兰",
+      "before": [
+        "This flower is <strong>violet</strong> in color.",
+        "这朵花的颜色是紫色。",
+        "",
+        ""
+      ],
+      "after": [
+        "A <strong>violet</strong> grew beside the path.",
+        "一株紫罗兰长在小路旁。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "groove",
+      "meaning": "n. 槽；沟；辙",
+      "before": [
+        "Well, two things, actually: 1) Nightclubs in Madagascar really did <strong>groove</strong> to &quot;I Like to Move It, Move It&quot; in the 1990s.",
+        "好吧，实际上有两件事：1）马达加斯加的夜总会在 20 世纪 90 年代确实很喜欢“我喜欢移动它，移动它”。",
+        "",
+        ""
+      ],
+      "after": [
+        "The record has a narrow spiral <strong>groove</strong>.",
+        "这张唱片有一条狭窄的螺旋槽。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "haven",
+      "meaning": "n. 港口；避难所；安全的地方",
+      "before": [
+        "We <strong>haven</strong>’t tortured them yet to make you understand what torture means!&quot;",
+        "我们还没折磨他们，就是为了让你明白什么叫折磨！”",
+        "",
+        ""
+      ],
+      "after": [
+        "The island became a safe <strong>haven</strong> for the refugees.",
+        "这座岛成为难民安全的避难所。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "maiden",
+      "meaning": "adj. 初次的",
+      "before": [
+        "The Titanic&#x27;s <strong>maiden</strong> voyage didn&#x27;t go so well.",
+        "泰塔尼克号的首航不是很好的。",
+        "The ship completed its <strong>maiden</strong> voyage safely.",
+        "这艘船安全完成了首次航行。"
+      ],
+      "after": [
+        "The ship completed its <strong>maiden</strong> voyage safely.",
+        "这艘船安全完成了首次航行。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "pancake",
+      "meaning": "n. 薄烤饼",
+      "before": [
+        "When chickens <strong>pancake</strong>-shape maintain, the tractor must have won again.",
+        "當雞像煎餅一樣平的時候, 那麼一定是拖拉機跑得比它們快。",
+        "",
+        ""
+      ],
+      "after": [
+        "She served a <strong>pancake</strong> with honey for breakfast.",
+        "她早餐端上了一张配蜂蜜的薄烤饼。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "proceeding",
+      "meaning": "v. 进行；继续；继续进行；“proceed”的现在分词",
+      "before": [
+        "At the meeting he monopolized the discussion and completely disrupted the <strong>proceeding</strong>.",
+        "在這次會議上, 他壟斷了討論並徹底打亂了議程。",
+        "A large army is proudly <strong>proceeding</strong>.",
+        "一支大军正浩浩荡荡地行进着。"
+      ],
+      "after": [
+        "The team is <strong>proceeding</strong> with the repairs.",
+        "团队正在继续进行维修。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "supplies",
+      "meaning": "n. 生活必需品；日用品；生活必需品，日用品（注意复数）",
+      "before": [
+        "The Red Cross constantly <strong>supplies</strong> food to the disaster areas.",
+        "红十字会不断地给灾区提供食物援助。",
+        "The rescue workers are going to hand out <strong>supplies</strong> to the victims of the earthquake.",
+        "救助人员将为地震受灾者提供资助。"
+      ],
+      "after": [
+        "We packed food and other <strong>supplies</strong> for the journey.",
+        "我们为旅程打包了食物和其他生活必需品。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    },
+    {
+      "word": "supports",
+      "meaning": "n. 支柱；支撑",
+      "before": [
+        "Mutilating intersex babies is something almost every transphobe <strong>supports</strong>.",
+        "殘害陰陽人嬰兒幾乎是每個恐跨者都支持的事情。",
+        "I&#x27;d like a phone that <strong>supports</strong> fast charging.",
+        "我想要支持快充的手機。"
+      ],
+      "after": [
+        "The roof rests on four wooden <strong>supports</strong>.",
+        "屋顶由四根木支柱支撑。",
+        "",
+        ""
+      ],
+      "reason": "词义/词性/专名/语法复核，采用明确的教学例句"
+    }
+  ]
+}

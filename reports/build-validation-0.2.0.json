@@ -1,0 +1,12 @@
+{
+  "notes": 12155,
+  "examples": 17091,
+  "morphology_or_family": 738,
+  "word_audio_files": 12155,
+  "sentence_audio_files": 0,
+  "version": "0.2.0",
+  "bytes": 72872370,
+  "sha256": "b5d936f660eb52ffd07cf376f79250bcd986e54bfed52c02e34809c4b30dc225",
+  "packaged_audio_files": 12155,
+  "text_only": false
+}

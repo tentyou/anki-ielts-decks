@@ -1,0 +1,14 @@
+/work/
+/outputs/
+/dist/
+/media/
+.venv/
+__pycache__/
+*.pyc
+*.apkg
+*.anki2
+*.anki2-*
+*.mp3
+*.wav
+.env
+.env.*

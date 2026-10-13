@@ -1,0 +1,1410 @@
+{
+  "absorption": {
+    "cn": "这个实验测量了土壤对水的吸收。",
+    "en": "The experiment measured the absorption of water by the soil."
+  },
+  "accent": {
+    "cn": "她说英语时带一点法国口音。",
+    "en": "She speaks English with a slight French accent."
+  },
+  "accord": {
+    "cn": "两国签署了一项贸易协议。",
+    "en": "The two countries signed a trade accord."
+  },
+  "admire": {
+    "cn": "我钦佩她的勇气和诚实。",
+    "en": "I admire her courage and honesty."
+  },
+  "aims": {
+    "cn": "这个项目有三个主要目标。",
+    "en": "The project has three main aims."
+  },
+  "airtight": {
+    "cn": "把饼干储存在密封容器中。",
+    "en": "Store the biscuits in an airtight container."
+  },
+  "album": {
+    "cn": "她把家庭照片保存在一本相册里。",
+    "en": "She kept the family photographs in an album."
+  },
+  "ally": {
+    "cn": "这个国家获得了一个强大的同盟者。",
+    "en": "The country gained a powerful ally."
+  },
+  "analogue": {
+    "cn": "这种化合物是一种天然激素的类似物。",
+    "en": "This compound is an analogue of a natural hormone."
+  },
+  "apt": {
+    "cn": "那是对这种情况的恰当描述。",
+    "en": "That is an apt description of the situation."
+  },
+  "arousal": {
+    "cn": "这项研究考察了公众兴趣的唤起。",
+    "en": "The study examined the arousal of public interest."
+  },
+  "assembly": {
+    "cn": "这台机器的装配花了两个小时。",
+    "en": "The assembly of the machine took two hours."
+  },
+  "assortment": {
+    "cn": "这家商店供应各式各样的新鲜水果。",
+    "en": "The shop offers an assortment of fresh fruit."
+  },
+  "attraction": {
+    "cn": "这份工作的吸引力在于工作时间灵活。",
+    "en": "The attraction of this job is its flexible hours."
+  },
+  "avail": {
+    "cn": "你应该利用这个机会。",
+    "en": "You should avail yourself of this opportunity."
+  },
+  "avalanche": {
+    "cn": "公告发布后，各种请求纷至沓来。",
+    "en": "The announcement brought an avalanche of requests."
+  },
+  "baker": {
+    "cn": "面包师傅从烤箱里取出新鲜面包。",
+    "en": "The baker took fresh bread out of the oven."
+  },
+  "bang": {
+    "cn": "门砰的一声关上了。",
+    "en": "The door closed with a loud bang."
+  },
+  "banks": {
+    "cn": "几家银行在这个镇上设有分行。",
+    "en": "Several banks have branches in this town."
+  },
+  "beam": {
+    "cn": "卫星将把信号发射回地球。",
+    "en": "The satellite will beam the signal back to Earth."
+  },
+  "bill": {
+    "cn": "付款前请核对账单。",
+    "en": "Please check the bill before you pay."
+  },
+  "bins": {
+    "cn": "请把空瓶放进回收垃圾桶。",
+    "en": "Please put empty bottles in the recycling bins."
+  },
+  "bitterness": {
+    "cn": "药的苦味使她皱起了脸。",
+    "en": "The bitterness of the medicine made her wince."
+  },
+  "blight": {
+    "cn": "这种作物受到了枯萎病的损害。",
+    "en": "The crop was damaged by blight."
+  },
+  "boards": {
+    "cn": "他们用木板修补了栅栏。",
+    "en": "They used wooden boards to repair the fence."
+  },
+  "bolt": {
+    "cn": "用扳手拧紧螺栓。",
+    "en": "Tighten the bolt with a spanner."
+  },
+  "bond": {
+    "cn": "两姐妹之间建立了深厚的感情纽带。",
+    "en": "A strong bond developed between the two sisters."
+  },
+  "boot": {
+    "cn": "把手提箱放进汽车后备箱。",
+    "en": "Put the suitcase in the boot of the car."
+  },
+  "brass": {
+    "cn": "这个把手是黄铜制品。",
+    "en": "The handle is made of brass."
+  },
+  "breadth": {
+    "cn": "测量桌子的宽度。",
+    "en": "Measure the breadth of the table."
+  },
+  "breathe": {
+    "cn": "试着缓慢地深呼吸。",
+    "en": "Try to breathe slowly and deeply."
+  },
+  "bribe": {
+    "cn": "他们试图贿赂那名官员，但他拒绝收钱。",
+    "en": "They tried to bribe the official, but he refused the money."
+  },
+  "brush": {
+    "cn": "睡觉前请刷牙。",
+    "en": "Please brush your teeth before bed."
+  },
+  "brushes": {
+    "cn": "画家画完画后清洗了她的刷子。",
+    "en": "The artist cleaned her brushes after painting."
+  },
+  "brute": {
+    "cn": "他试图用粗暴的力量打开门。",
+    "en": "He tried to open the door with brute force."
+  },
+  "bucket": {
+    "cn": "把水桶装满清水。",
+    "en": "Fill the bucket with clean water."
+  },
+  "buckets": {
+    "cn": "我们把两个水桶装满了水。",
+    "en": "We filled two buckets with water."
+  },
+  "bug": {
+    "cn": "一只小虫子爬过叶子。",
+    "en": "A small bug crawled across the leaf."
+  },
+  "buzz": {
+    "cn": "我们能听到花园里昆虫的嗡嗡声。",
+    "en": "We could hear the buzz of insects in the garden."
+  },
+  "cape": {
+    "cn": "船绕过了多岩石的海角。",
+    "en": "The ship sailed around the rocky cape."
+  },
+  "cargo": {
+    "cn": "这艘船运载了一批谷物货物。",
+    "en": "The ship carried a cargo of grain."
+  },
+  "carrier": {
+    "cn": "病毒携带者可能没有症状，却能传播病毒。",
+    "en": "A carrier can spread the virus without showing symptoms."
+  },
+  "cascade": {
+    "cn": "这项公告引发了大量投诉。",
+    "en": "The announcement triggered a cascade of complaints."
+  },
+  "cast": {
+    "cn": "全体演员回到了舞台上。",
+    "en": "The entire cast returned to the stage."
+  },
+  "cell": {
+    "cn": "科学家在显微镜下观察了一个细胞。",
+    "en": "The scientist examined a cell under the microscope."
+  },
+  "central": {
+    "cn": "喷泉坐落在中央广场上。",
+    "en": "The fountain stands in the central square."
+  },
+  "cheer": {
+    "cn": "球队入场时，球迷开始欢呼。",
+    "en": "The fans began to cheer as the team entered."
+  },
+  "china": {
+    "cn": "她小心地清洗那些精致的瓷器。",
+    "en": "She carefully washed the delicate china."
+  },
+  "chip": {
+    "cn": "这块芯片控制机器的温度。",
+    "en": "This chip controls the temperature of the machine."
+  },
+  "circles": {
+    "cn": "在纸上画三个圈。",
+    "en": "Draw three circles on the paper."
+  },
+  "circulate": {
+    "cn": "水泵帮助水在管道中循环。",
+    "en": "The pump helps water circulate through the pipes."
+  },
+  "circumstance": {
+    "cn": "这个决定取决于作出决定时的情况。",
+    "en": "The decision depends on the circumstance in which it is made."
+  },
+  "clamp": {
+    "cn": "用夹具把木头固定住。",
+    "en": "Use a clamp to hold the wood in place."
+  },
+  "cleanest": {
+    "cn": "这是楼里最干净的房间。",
+    "en": "This is the cleanest room in the building."
+  },
+  "clock": {
+    "cn": "墙上的时钟显示着正确的时间。",
+    "en": "The clock on the wall shows the correct time."
+  },
+  "cock": {
+    "cn": "公鸡在日出时啼叫。",
+    "en": "The cock crowed at sunrise."
+  },
+  "coexist": {
+    "cn": "不同物种可以在同一栖息地共存。",
+    "en": "Different species can coexist in the same habitat."
+  },
+  "column": {
+    "cn": "把数字填在第一列。",
+    "en": "Enter the numbers in the first column."
+  },
+  "committee": {
+    "cn": "委员会开会讨论了这项提议。",
+    "en": "The committee met to discuss the proposal."
+  },
+  "condensation": {
+    "cn": "这本小册子是原报告的浓缩本。",
+    "en": "The booklet is a condensation of the original report."
+  },
+  "condense": {
+    "cn": "水蒸气会在冰冷的玻璃上冷凝。",
+    "en": "Water vapour will condense on the cold glass."
+  },
+  "conditioning": {
+    "cn": "经典条件作用可以把声音与反应联系起来。",
+    "en": "Classical conditioning can link a sound with a response."
+  },
+  "consent": {
+    "cn": "改动之前，你需要得到业主的同意。",
+    "en": "You need the owner's consent before making changes."
+  },
+  "consolidate": {
+    "cn": "这家公司计划合并其较小的办事处。",
+    "en": "The company plans to consolidate its smaller offices."
+  },
+  "contingent": {
+    "cn": "我们的计划取决于天气情况。",
+    "en": "Our plans are contingent on the weather."
+  },
+  "converse": {
+    "cn": "这个说法的相反说法并非总是成立。",
+    "en": "The converse of this statement is not always true."
+  },
+  "convert": {
+    "cn": "这个装置可以把阳光转换成电能。",
+    "en": "The device can convert sunlight into electricity."
+  },
+  "convey": {
+    "cn": "这封信未能传达她的真实感受。",
+    "en": "The letter failed to convey her true feelings."
+  },
+  "cooker": {
+    "cn": "这台炉灶有四个燃气灶眼。",
+    "en": "The cooker has four gas burners."
+  },
+  "cooks": {
+    "cn": "厨师们为客人准备了午餐。",
+    "en": "The cooks prepared lunch for the guests."
+  },
+  "corpus": {
+    "cn": "研究人员建立了一个英语口语语料库。",
+    "en": "The researchers built a corpus of spoken English."
+  },
+  "course": {
+    "cn": "她报名参加了一门环境科学课程。",
+    "en": "She enrolled in a course on environmental science."
+  },
+  "cover": {
+    "cn": "请用干净的布盖住食物。",
+    "en": "Please cover the food with a clean cloth."
+  },
+  "crane": {
+    "cn": "一台起重机把钢梁吊到了屋顶上。",
+    "en": "A crane lifted the steel beam onto the roof."
+  },
+  "crawl": {
+    "cn": "婴儿开始在地板上爬行。",
+    "en": "The baby began to crawl across the floor."
+  },
+  "creep": {
+    "cn": "她试图蹑手蹑脚地从熟睡的婴儿身边走过。",
+    "en": "She tried to creep quietly past the sleeping baby."
+  },
+  "cross": {
+    "cn": "等绿灯亮了再过马路。",
+    "en": "Wait for the green light before you cross the road."
+  },
+  "crude": {
+    "cn": "他们用树枝搭了一个简陋的庇护所。",
+    "en": "They built a crude shelter from branches."
+  },
+  "crush": {
+    "cn": "用勺子把软水果压碎。",
+    "en": "Use a spoon to crush the soft fruit."
+  },
+  "curse": {
+    "cn": "故事说这座城堡受到了诅咒。",
+    "en": "The story says that a curse was placed on the castle."
+  },
+  "custody": {
+    "cn": "法院把孩子的监护权判给了她。",
+    "en": "The court awarded her custody of the children."
+  },
+  "cuttings": {
+    "cn": "她保存了有关这件事的报纸剪辑。",
+    "en": "She saved newspaper cuttings about the event."
+  },
+  "dash": {
+    "cn": "往酱汁里加少量牛奶。",
+    "en": "Add a dash of milk to the sauce."
+  },
+  "dates": {
+    "cn": "请核对票上的日期。",
+    "en": "Please check the dates on your tickets."
+  },
+  "default": {
+    "cn": "英语是这个应用程序的默认语言。",
+    "en": "English is the default language of the application."
+  },
+  "delegate": {
+    "cn": "经理应该把日常任务委派给员工。",
+    "en": "Managers should delegate routine tasks to their staff."
+  },
+  "deposit": {
+    "cn": "预订房间需要支付五十英镑的押金。",
+    "en": "A deposit of fifty pounds is required to reserve the room."
+  },
+  "deposits": {
+    "cn": "租户必须在入住前支付押金。",
+    "en": "Tenants must pay deposits before moving in."
+  },
+  "dew": {
+    "cn": "草上覆盖着露珠。",
+    "en": "Drops of dew covered the grass."
+  },
+  "disgust": {
+    "cn": "他厌恶地看着那些变质的食物。",
+    "en": "He looked at the spoiled food with disgust."
+  },
+  "disposition": {
+    "cn": "她性情开朗。",
+    "en": "She has a cheerful disposition."
+  },
+  "drag": {
+    "cn": "请把这个沉重的箱子沿地面拖过去。",
+    "en": "Please drag the heavy box across the floor."
+  },
+  "drain": {
+    "cn": "这些管道把屋顶的水排走。",
+    "en": "These pipes drain water from the roof."
+  },
+  "draw": {
+    "cn": "她喜欢画动物。",
+    "en": "She likes to draw pictures of animals."
+  },
+  "drawings": {
+    "cn": "工程师检查了技术图纸。",
+    "en": "The engineer checked the technical drawings."
+  },
+  "drill": {
+    "cn": "工人用钻机在墙上钻了一个孔。",
+    "en": "The worker used a drill to make a hole in the wall."
+  },
+  "drinks": {
+    "cn": "柜台供应冷饮。",
+    "en": "Cold drinks are available at the counter."
+  },
+  "drop-off": {
+    "cn": "上个月销售额急剧下降。",
+    "en": "There was a sharp drop-off in sales last month."
+  },
+  "dump": {
+    "cn": "不要把脏水倒进河里。",
+    "en": "Do not dump dirty water into the river."
+  },
+  "dwarf": {
+    "cn": "太阳被归类为矮星。",
+    "en": "The Sun is classified as a dwarf star."
+  },
+  "dynamics": {
+    "cn": "这门课程介绍动态学的基本原理。",
+    "en": "The course introduces the basic principles of dynamics."
+  },
+  "ear": {
+    "cn": "噪声太大，她捂住了耳朵。",
+    "en": "She covered her ears because of the noise."
+  },
+  "embellish": {
+    "cn": "她用丝带装饰盒子。",
+    "en": "She used ribbons to embellish the box."
+  },
+  "engagement": {
+    "cn": "这个项目鼓励与当地社区建立密切关系。",
+    "en": "The project encourages close engagement with the local community."
+  },
+  "entrance": {
+    "cn": "博物馆的入口在左边。",
+    "en": "The entrance to the museum is on the left."
+  },
+  "every": {
+    "cn": "每个学生都收到了一本书。",
+    "en": "Every student received a copy of the book."
+  },
+  "excellence": {
+    "cn": "这个奖项表彰卓越的教学表现。",
+    "en": "The award recognizes excellence in teaching."
+  },
+  "expel": {
+    "cn": "这台机器用风扇排出热空气。",
+    "en": "The machine uses a fan to expel hot air."
+  },
+  "fabrication": {
+    "cn": "这些零件的制备需要专用设备。",
+    "en": "The fabrication of these parts requires special equipment."
+  },
+  "fabulous": {
+    "cn": "我们度过了一个极好的假期。",
+    "en": "We had a fabulous holiday."
+  },
+  "facial": {
+    "cn": "医生检查了她的面部肌肉。",
+    "en": "The doctor checked her facial muscles."
+  },
+  "faint": {
+    "cn": "我们能听到远处微弱的声音。",
+    "en": "We could hear a faint sound in the distance."
+  },
+  "fan": {
+    "cn": "我们打开风扇给房间降温。",
+    "en": "We turned on the fan to cool the room."
+  },
+  "favor": {
+    "cn": "新规定有利于小企业。",
+    "en": "The new rules favor small businesses."
+  },
+  "feather": {
+    "cn": "一根白色羽毛从鸟的翅膀上掉了下来。",
+    "en": "A white feather fell from the bird's wing."
+  },
+  "fend": {
+    "cn": "她抬起手臂挡开了那一击。",
+    "en": "She raised her arm to fend off the blow."
+  },
+  "ferocious": {
+    "cn": "这个项目面临强烈的竞争。",
+    "en": "The project faced ferocious competition."
+  },
+  "flicker": {
+    "cn": "门下闪现了一道光。",
+    "en": "A flicker of light appeared under the door."
+  },
+  "flip": {
+    "cn": "把卡片快速翻过来查看答案。",
+    "en": "Flip the card over to see the answer."
+  },
+  "flora": {
+    "cn": "这座岛屿有丰富多样的植物群落。",
+    "en": "The island has a rich and varied flora."
+  },
+  "foster": {
+    "cn": "这个项目旨在培养儿童的创造力。",
+    "en": "The programme aims to foster children's creativity."
+  },
+  "frank": {
+    "cn": "请坦率地告诉我你的看法。",
+    "en": "Please give me your frank opinion."
+  },
+  "fuse": {
+    "cn": "热可以把两块金属熔接在一起。",
+    "en": "Heat can fuse the two pieces of metal together."
+  },
+  "gamble": {
+    "cn": "这项投资是一场风险很大的赌博。",
+    "en": "The investment was a risky gamble."
+  },
+  "glory": {
+    "cn": "落日使天空充满了金色的光辉。",
+    "en": "The setting sun filled the sky with golden glory."
+  },
+  "gloss": {
+    "cn": "编辑加了一条注释来解释这个生词。",
+    "en": "The editor added a gloss to explain the unfamiliar word."
+  },
+  "grin": {
+    "cn": "她咧嘴大笑着迎接我们。",
+    "en": "She greeted us with a broad grin."
+  },
+  "groom": {
+    "cn": "我们每天早晨给马梳理毛发。",
+    "en": "We groom the horse every morning."
+  },
+  "groove": {
+    "cn": "这张唱片有一条狭窄的螺旋槽。",
+    "en": "The record has a narrow spiral groove."
+  },
+  "guilt": {
+    "cn": "他为违背诺言感到内疚。",
+    "en": "He felt guilt for breaking his promise."
+  },
+  "hail": {
+    "cn": "大块冰雹砸坏了屋顶。",
+    "en": "Large pieces of hail damaged the roof."
+  },
+  "handout": {
+    "cn": "老师给每个学生发了一份讲义。",
+    "en": "The teacher gave each student a handout."
+  },
+  "handy": {
+    "cn": "这只小手电筒便于在黑暗中阅读。",
+    "en": "This small torch is handy for reading in the dark."
+  },
+  "hat": {
+    "cn": "他戴了一顶帽子遮阳。",
+    "en": "He wore a hat to protect his head from the sun."
+  },
+  "haunt": {
+    "cn": "那次事故的记忆仍然长期困扰着她。",
+    "en": "Memories of the accident still haunt her."
+  },
+  "haven": {
+    "cn": "这座岛成为难民安全的避难所。",
+    "en": "The island became a safe haven for the refugees."
+  },
+  "hay": {
+    "cn": "农民把干草储存在谷仓里。",
+    "en": "The farmer stored dry hay in the barn."
+  },
+  "hazel": {
+    "cn": "一棵榛树长在小路旁。",
+    "en": "The hazel tree grew beside the path."
+  },
+  "head": {
+    "cn": "她戴着头盔保护头部。",
+    "en": "She wore a helmet to protect her head."
+  },
+  "headings": {
+    "cn": "使用清晰的标题来组织报告。",
+    "en": "Use clear headings to organize the report."
+  },
+  "hell": {
+    "cn": "这个故事描述了一次穿越地狱的旅程。",
+    "en": "The story describes a journey through hell."
+  },
+  "hen": {
+    "cn": "母鸡今天早晨下了一个蛋。",
+    "en": "The hen laid an egg this morning."
+  },
+  "herald": {
+    "cn": "传令官宣布国王驾到。",
+    "en": "The herald announced the king's arrival."
+  },
+  "hiccup": {
+    "cn": "一声响亮的打嗝声打断了他的讲话。",
+    "en": "A loud hiccup interrupted his speech."
+  },
+  "hit": {
+    "cn": "球击中了窗户。",
+    "en": "The ball hit the window."
+  },
+  "honey": {
+    "cn": "她往茶里加了一勺蜂蜜。",
+    "en": "She added a spoonful of honey to her tea."
+  },
+  "hop": {
+    "cn": "兔子能跃过低矮的栅栏。",
+    "en": "The rabbit can hop over the low fence."
+  },
+  "hot": {
+    "cn": "这汤太烫，还不能喝。",
+    "en": "The soup is too hot to drink."
+  },
+  "hover": {
+    "cn": "一架直升机开始在田野上空盘旋。",
+    "en": "A helicopter began to hover above the field."
+  },
+  "icon": {
+    "cn": "这名歌手成为了文化偶像。",
+    "en": "The singer became a cultural icon."
+  },
+  "implications": {
+    "cn": "我们讨论了他话里隐藏的暗示。",
+    "en": "We discussed the implications hidden in his words."
+  },
+  "induce": {
+    "cn": "这个提议可能诱使更多人申请。",
+    "en": "The offer may induce more people to apply."
+  },
+  "inhale": {
+    "cn": "尽量不要吸入烟雾。",
+    "en": "Try not to inhale the smoke."
+  },
+  "integrity": {
+    "cn": "她因诚实和正直而受到尊重。",
+    "en": "She is respected for her honesty and integrity."
+  },
+  "interactive": {
+    "cn": "这家博物馆有供儿童使用的交互式展品。",
+    "en": "The museum has interactive displays for children."
+  },
+  "interchange": {
+    "cn": "这次会议促进了思想交流。",
+    "en": "The conference encouraged an interchange of ideas."
+  },
+  "international": {
+    "cn": "这所大学每年举办一次国际会议。",
+    "en": "The university hosts an international conference each year."
+  },
+  "jam": {
+    "cn": "她把草莓果酱涂在面包上。",
+    "en": "She spread strawberry jam on the bread."
+  },
+  "jaws": {
+    "cn": "这只动物张开了强有力的双颚。",
+    "en": "The animal opened its powerful jaws."
+  },
+  "jerk": {
+    "cn": "他突然猛拉了一下绳子。",
+    "en": "He pulled the rope with a sudden jerk."
+  },
+  "jet": {
+    "cn": "一架喷气式客机飞过小镇上空。",
+    "en": "A passenger jet flew over the town."
+  },
+  "jog": {
+    "cn": "我每天早晨在公园慢跑。",
+    "en": "I jog in the park every morning."
+  },
+  "joint": {
+    "cn": "两国宣布了一项联合研究计划。",
+    "en": "The two countries announced a joint research project."
+  },
+  "kettle": {
+    "cn": "她把水壶装满了水。",
+    "en": "She filled the kettle with water."
+  },
+  "kick": {
+    "cn": "不要把球踢向窗户。",
+    "en": "Do not kick the ball towards the window."
+  },
+  "kindle": {
+    "cn": "干树叶可以帮助生火。",
+    "en": "Dry leaves can help kindle a fire."
+  },
+  "kiss": {
+    "cn": "她离开前亲吻了孩子一下。",
+    "en": "She gave her child a kiss before leaving."
+  },
+  "leaf": {
+    "cn": "一片黄叶落在小路上。",
+    "en": "A yellow leaf fell onto the path."
+  },
+  "lever": {
+    "cn": "他们用一根金属棒把盖子撬开。",
+    "en": "They used a metal bar to lever the lid open."
+  },
+  "limb": {
+    "cn": "受伤的肢体用绷带托住了。",
+    "en": "The injured limb was supported by a bandage."
+  },
+  "lime": {
+    "cn": "农民在酸性土壤中添加了石灰。",
+    "en": "The farmer added lime to the acidic soil."
+  },
+  "line": {
+    "cn": "在纸上画一条直线。",
+    "en": "Draw a straight line across the page."
+  },
+  "lip": {
+    "cn": "她的下嘴唇上有一道小伤口。",
+    "en": "She had a small cut on her lower lip."
+  },
+  "locks": {
+    "cn": "这些门装有结实的锁。",
+    "en": "The doors have strong locks."
+  },
+  "log": {
+    "cn": "船长把详细情况记在航海日志里。",
+    "en": "The captain wrote the details in the ship's log."
+  },
+  "maiden": {
+    "cn": "这艘船安全完成了首次航行。",
+    "en": "The ship completed its maiden voyage safely."
+  },
+  "maintain": {
+    "cn": "请与机器保持安全距离。",
+    "en": "Please maintain a safe distance from the machine."
+  },
+  "maker": {
+    "cn": "这件乐器的制造者在上面签了名。",
+    "en": "The maker of the instrument signed it."
+  },
+  "mall": {
+    "cn": "我们在购物中心见面。",
+    "en": "We met at the shopping mall."
+  },
+  "mate": {
+    "cn": "这些鸟通常在春天交配。",
+    "en": "These birds usually mate in spring."
+  },
+  "may": {
+    "cn": "这门课程五月开课。",
+    "en": "The course begins in May."
+  },
+  "meet": {
+    "cn": "我们中午在图书馆外见面。",
+    "en": "We will meet outside the library at noon."
+  },
+  "merely": {
+    "cn": "这仅仅是一个建议，不是命令。",
+    "en": "It was merely a suggestion, not an order."
+  },
+  "modify": {
+    "cn": "我们需要在星期五之前更改计划。",
+    "en": "We need to modify the plan before Friday."
+  },
+  "mole": {
+    "cn": "一只鼹鼠在草坪下挖了一条隧道。",
+    "en": "A mole dug a tunnel beneath the lawn."
+  },
+  "monitor": {
+    "cn": "护士监控病人的心率。",
+    "en": "The nurses monitor the patient's heart rate."
+  },
+  "monopoly": {
+    "cn": "这家公司垄断了当地的供水。",
+    "en": "The company has a monopoly on the local water supply."
+  },
+  "monstrous": {
+    "cn": "一个巨大的海浪撞击了小船。",
+    "en": "A monstrous wave struck the boat."
+  },
+  "mop": {
+    "cn": "他有一头浓密而乱蓬蓬的黑发。",
+    "en": "He had a thick mop of dark hair."
+  },
+  "motel": {
+    "cn": "我们住在公路旁的一家汽车旅馆。",
+    "en": "We stayed at a motel beside the highway."
+  },
+  "navy": {
+    "cn": "他毕业后加入了海军。",
+    "en": "He joined the navy after leaving school."
+  },
+  "neglect": {
+    "cn": "这座建筑因多年的疏忽管理而失修。",
+    "en": "The building fell into disrepair through years of neglect."
+  },
+  "nerve": {
+    "cn": "这次受伤损伤了他手上的一根神经。",
+    "en": "The injury damaged a nerve in his hand."
+  },
+  "neutron": {
+    "cn": "中子不带电荷。",
+    "en": "A neutron has no electric charge."
+  },
+  "new": {
+    "cn": "她昨天买了一本新笔记本。",
+    "en": "She bought a new notebook yesterday."
+  },
+  "none": {
+    "cn": "学生中没有一个人知道答案。",
+    "en": "None of the students knew the answer."
+  },
+  "objects": {
+    "cn": "不要把重物放在架子上。",
+    "en": "Do not place heavy objects on the shelf."
+  },
+  "offence": {
+    "cn": "这种犯罪行为会受到高额罚款处罚。",
+    "en": "The offence carries a heavy fine."
+  },
+  "onslaught": {
+    "cn": "办公室接到了大量涌来的电话。",
+    "en": "The office faced an onslaught of phone calls."
+  },
+  "organ": {
+    "cn": "心脏是将血液泵送到全身的器官。",
+    "en": "The heart is an organ that pumps blood around the body."
+  },
+  "page": {
+    "cn": "请翻到下一页。",
+    "en": "Please turn to the next page."
+  },
+  "palatable": {
+    "cn": "这顿饭虽然简单，却很可口。",
+    "en": "The meal was simple but palatable."
+  },
+  "pamper": {
+    "cn": "酒店员工细心照顾客人。",
+    "en": "The hotel staff pamper their guests."
+  },
+  "pancake": {
+    "cn": "她早餐端上了一张配蜂蜜的薄烤饼。",
+    "en": "She served a pancake with honey for breakfast."
+  },
+  "par": {
+    "cn": "她的工作与团队中最优秀的成果处于同等水平。",
+    "en": "Her work is on a par with the best in the team."
+  },
+  "patch": {
+    "cn": "墙旁长着一小片草地。",
+    "en": "A patch of grass grew beside the wall."
+  },
+  "pedestrian": {
+    "cn": "司机停车让一名行人过马路。",
+    "en": "The driver stopped to let a pedestrian cross the road."
+  },
+  "penalty": {
+    "cn": "违反这条规则的惩罚是罚款。",
+    "en": "The penalty for breaking this rule is a fine."
+  },
+  "penny": {
+    "cn": "这枚硬币价值一便士。",
+    "en": "The coin was worth one penny."
+  },
+  "perfume": {
+    "cn": "她买了一小瓶香水。",
+    "en": "She bought a small bottle of perfume."
+  },
+  "pier": {
+    "cn": "我们在码头尽头看船。",
+    "en": "We watched the boats from the end of the pier."
+  },
+  "pierce": {
+    "cn": "这根针可以刺穿厚布料。",
+    "en": "The needle can pierce thick fabric."
+  },
+  "pitcher": {
+    "cn": "投手把球投向击球手。",
+    "en": "The pitcher threw the ball towards the batter."
+  },
+  "plate": {
+    "cn": "她把面包放在一个干净的盘子里。",
+    "en": "She put the bread on a clean plate."
+  },
+  "plays": {
+    "cn": "这家剧院每年上演三部新戏剧。",
+    "en": "The theatre presents three new plays each year."
+  },
+  "pledge": {
+    "cn": "公司作出了减少浪费的保证。",
+    "en": "The company made a pledge to reduce waste."
+  },
+  "plot": {
+    "cn": "这部电影的情节很复杂。",
+    "en": "The film has a complicated plot."
+  },
+  "plumb": {
+    "cn": "建筑工人用铅锤检查墙面。",
+    "en": "The builder used a plumb to check the wall."
+  },
+  "pod": {
+    "cn": "她打开豆荚，取出了豌豆。",
+    "en": "She opened the pod and removed the peas."
+  },
+  "point": {
+    "cn": "这份报告的主要观点很清楚。",
+    "en": "The main point of the report is clear."
+  },
+  "poles": {
+    "cn": "这次考察研究了南北两极的情况。",
+    "en": "The expedition studied conditions at both poles."
+  },
+  "polish": {
+    "cn": "请把银器擦到发亮。",
+    "en": "Please polish the silver until it shines."
+  },
+  "potter": {
+    "cn": "陶工把湿黏土塑成一只碗。",
+    "en": "The potter shaped the wet clay into a bowl."
+  },
+  "pound": {
+    "cn": "这张票要二十英镑。",
+    "en": "The ticket costs twenty pounds."
+  },
+  "praise": {
+    "cn": "她的工作得到了整个团队的赞扬。",
+    "en": "Her work received praise from the whole team."
+  },
+  "preface": {
+    "cn": "作者在序言中解释了他的写作目的。",
+    "en": "The author explains his purpose in the preface."
+  },
+  "prevail": {
+    "cn": "我们希望劝服他重新考虑。",
+    "en": "We hope to prevail on him to reconsider."
+  },
+  "prior": {
+    "cn": "先前的经验对这份工作有帮助。",
+    "en": "Prior experience is helpful for this job."
+  },
+  "proceeding": {
+    "cn": "团队正在继续进行维修。",
+    "en": "The team is proceeding with the repairs."
+  },
+  "projection": {
+    "cn": "电影放映八点开始。",
+    "en": "The projection of the film begins at eight."
+  },
+  "proliferate": {
+    "cn": "细菌可以在温热的食物中快速繁殖。",
+    "en": "Bacteria can proliferate rapidly in warm food."
+  },
+  "puff": {
+    "cn": "爬上陡峭的山坡时，他开始喘气。",
+    "en": "He began to puff as he climbed the steep hill."
+  },
+  "punch": {
+    "cn": "不要在这份文件上打孔。",
+    "en": "Do not punch holes in this document."
+  },
+  "quiz": {
+    "cn": "各队参加了一场常识知识竞赛。",
+    "en": "The teams competed in a general knowledge quiz."
+  },
+  "radar": {
+    "cn": "雷达探测到一架正在接近的飞机。",
+    "en": "The radar detected an approaching aircraft."
+  },
+  "radical": {
+    "cn": "这项提议将给这个制度带来根本性的改变。",
+    "en": "The proposal would bring radical changes to the system."
+  },
+  "radius": {
+    "cn": "搜寻覆盖了半径五公里的范围。",
+    "en": "The search covered a radius of five kilometres."
+  },
+  "raise": {
+    "cn": "这个慈善机构希望筹募足够的资金建一所新学校。",
+    "en": "The charity hopes to raise enough money for a new school."
+  },
+  "random": {
+    "cn": "计算机选出了一个随机数。",
+    "en": "The computer selected a random number."
+  },
+  "rash": {
+    "cn": "这个地区同时出现了大量入室盗窃案件。",
+    "en": "There has been a rash of burglaries in the area."
+  },
+  "recipe": {
+    "cn": "成功没有简单的秘诀。",
+    "en": "There is no simple recipe for success."
+  },
+  "reclaim": {
+    "cn": "乘客可以在飞机降落后取回行李。",
+    "en": "Passengers can reclaim their luggage after landing."
+  },
+  "redundancy": {
+    "cn": "工厂关闭导致五十名工人被裁员。",
+    "en": "The factory closure led to the redundancy of fifty workers."
+  },
+  "reed": {
+    "cn": "一只鸟在芦苇丛中筑巢。",
+    "en": "A bird was nesting among the reeds."
+  },
+  "refund": {
+    "cn": "她因车票取消而收到了全额退款。",
+    "en": "She received a full refund for the cancelled ticket."
+  },
+  "reinforcement": {
+    "cn": "表扬可以成为良好行为的强化物。",
+    "en": "Praise can act as a reinforcement for good behaviour."
+  },
+  "remark": {
+    "cn": "她没有评论他外貌的变化。",
+    "en": "She did not remark on the change in his appearance."
+  },
+  "repertoire": {
+    "cn": "她的全部技能包括绘画和摄影。",
+    "en": "Her repertoire of skills includes drawing and photography."
+  },
+  "resignation": {
+    "cn": "她昨天递交了辞呈。",
+    "en": "She handed in her resignation yesterday."
+  },
+  "resolve": {
+    "cn": "我们需要在星期五之前解决这个问题。",
+    "en": "We need to resolve the problem before Friday."
+  },
+  "respectable": {
+    "cn": "这家企业今年获得了可观的利润。",
+    "en": "The business made a respectable profit this year."
+  },
+  "reviews": {
+    "cn": "委员会定期对这些决定进行复审。",
+    "en": "The committee conducts regular reviews of these decisions."
+  },
+  "revolution": {
+    "cn": "这场革命改变了这个国家的政治制度。",
+    "en": "The revolution changed the country's political system."
+  },
+  "ridge": {
+    "cn": "我们沿着狭窄的山脊行走。",
+    "en": "We walked along the narrow mountain ridge."
+  },
+  "ripe": {
+    "cn": "这些桃子已经成熟，可以吃了。",
+    "en": "These peaches are ripe and ready to eat."
+  },
+  "romance": {
+    "cn": "这本书讲述了他们的浪漫爱情故事。",
+    "en": "The book tells the story of their romance."
+  },
+  "round": {
+    "cn": "我们围坐在一张圆桌旁。",
+    "en": "We sat around a round table."
+  },
+  "royalty": {
+    "cn": "王宫迎接了来访的皇室成员。",
+    "en": "The palace welcomed visiting royalty."
+  },
+  "rubber": {
+    "cn": "这些轮胎是用橡胶制成的。",
+    "en": "The tyres are made of rubber."
+  },
+  "run": {
+    "cn": "她喜欢每天早晨在公园跑步。",
+    "en": "She likes to run in the park every morning."
+  },
+  "sack": {
+    "cn": "他把一袋大米搬进厨房。",
+    "en": "He carried a sack of rice into the kitchen."
+  },
+  "schooling": {
+    "cn": "每个孩子都应该有机会接受基础学校教育。",
+    "en": "Every child should have access to basic schooling."
+  },
+  "scoop": {
+    "cn": "用勺把汤舀进碗里。",
+    "en": "Use a spoon to scoop the soup into a bowl."
+  },
+  "scour": {
+    "cn": "用这把刷子把脏锅擦净。",
+    "en": "Use this brush to scour the dirty pan."
+  },
+  "scrub": {
+    "cn": "山坡上覆盖着低矮的灌木丛。",
+    "en": "The hillside was covered with low scrub."
+  },
+  "shaft": {
+    "cn": "矿工们下到了竖井里。",
+    "en": "The miners went down the shaft."
+  },
+  "sharpen": {
+    "cn": "经常练习会提高你的写作技能。",
+    "en": "Regular practice will sharpen your writing skills."
+  },
+  "sharply": {
+    "cn": "燃料费用急剧上涨。",
+    "en": "The cost of fuel rose sharply."
+  },
+  "shave": {
+    "cn": "开会之前他需要刮胡子。",
+    "en": "He needs to shave before the meeting."
+  },
+  "shelters": {
+    "cn": "这些简易遮盖物使设备保持干燥。",
+    "en": "The simple shelters kept the equipment dry."
+  },
+  "shine": {
+    "cn": "晴朗的夜晚，星星明亮地闪耀。",
+    "en": "The stars shine brightly on a clear night."
+  },
+  "shiver": {
+    "cn": "她在寒风中开始颤抖。",
+    "en": "She began to shiver in the cold wind."
+  },
+  "shower": {
+    "cn": "我运动后洗淋浴。",
+    "en": "I take a shower after exercise."
+  },
+  "signature": {
+    "cn": "表格底部需要你的签名。",
+    "en": "Your signature is required at the bottom of the form."
+  },
+  "slack": {
+    "cn": "绳子松弛，很容易解开。",
+    "en": "The rope was slack and easy to untie."
+  },
+  "slice": {
+    "cn": "她把一片面包放在盘子上。",
+    "en": "She placed a slice of bread on the plate."
+  },
+  "slip": {
+    "cn": "他在结冰的人行道上开始滑倒。",
+    "en": "He began to slip on the icy pavement."
+  },
+  "slit": {
+    "cn": "光从窗帘的一条狭长裂缝中透了进来。",
+    "en": "Light came through a narrow slit in the curtain."
+  },
+  "slot": {
+    "cn": "把卡插入狭槽。",
+    "en": "Insert the card into the narrow slot."
+  },
+  "small": {
+    "cn": "他们住在一所小房子里。",
+    "en": "They live in a small house."
+  },
+  "soap": {
+    "cn": "用肥皂和水洗手。",
+    "en": "Wash your hands with soap and water."
+  },
+  "soar": {
+    "cn": "食品价格继续骤升。",
+    "en": "Food prices continue to soar."
+  },
+  "soil": {
+    "cn": "这些植物在这片肥沃的土壤中生长良好。",
+    "en": "The plants grow well in this rich soil."
+  },
+  "sore": {
+    "cn": "长途步行后，我的双腿很疼。",
+    "en": "My legs are sore after the long walk."
+  },
+  "sounds": {
+    "cn": "我们听到了窗外奇怪的声音。",
+    "en": "We heard strange sounds outside the window."
+  },
+  "spade": {
+    "cn": "他用铁锹挖了一个坑。",
+    "en": "He used a spade to dig a hole."
+  },
+  "spawn": {
+    "cn": "这些鱼在浅水中产卵。",
+    "en": "These fish spawn in shallow water."
+  },
+  "specialty": {
+    "cn": "这家餐馆的特色菜是烤鱼。",
+    "en": "The restaurant's specialty is grilled fish."
+  },
+  "spectacle": {
+    "cn": "烟花是一番壮观的景象。",
+    "en": "The fireworks were a magnificent spectacle."
+  },
+  "splash": {
+    "cn": "地板上留下了一块油漆溅污的斑点。",
+    "en": "A splash of paint stained the floor."
+  },
+  "spy": {
+    "cn": "他们用无人机秘密侦察那个军事基地。",
+    "en": "They used drones to spy on the military base."
+  },
+  "starter": {
+    "cn": "机修工更换了有故障的启动器。",
+    "en": "The mechanic replaced the faulty starter."
+  },
+  "stationary": {
+    "cn": "汽车在交通信号灯前保持不动。",
+    "en": "The car remained stationary at the traffic lights."
+  },
+  "steam": {
+    "cn": "蒸汽从沸水中升起。",
+    "en": "Steam rose from the boiling water."
+  },
+  "steps": {
+    "cn": "他走近时，我们听到了脚步声，并数着他的步数。",
+    "en": "We heard footsteps and counted the steps as he approached."
+  },
+  "stern": {
+    "cn": "一名水手站在船尾。",
+    "en": "A sailor stood at the stern of the boat."
+  },
+  "stringent": {
+    "cn": "这家工厂遵守严苛的安全规则。",
+    "en": "The factory follows stringent safety rules."
+  },
+  "studious": {
+    "cn": "争论期间，他故意保持沉默。",
+    "en": "He maintained a studious silence during the argument."
+  },
+  "stumble": {
+    "cn": "他在楼梯上绊了一下，差点摔倒。",
+    "en": "A stumble on the stairs nearly caused him to fall."
+  },
+  "subordinate": {
+    "cn": "安全并不比利润次要。",
+    "en": "Safety is not subordinate to profit."
+  },
+  "subsidiary": {
+    "cn": "这家公司在法国开设了一家新的子公司。",
+    "en": "The company opened a new subsidiary in France."
+  },
+  "suck": {
+    "cn": "婴儿开始吮吸自己的拇指。",
+    "en": "The baby began to suck its thumb."
+  },
+  "sue": {
+    "cn": "顾客们决定起诉这家公司。",
+    "en": "The customers decided to sue the company."
+  },
+  "supplies": {
+    "cn": "我们为旅程打包了食物和其他生活必需品。",
+    "en": "We packed food and other supplies for the journey."
+  },
+  "supports": {
+    "cn": "屋顶由四根木支柱支撑。",
+    "en": "The roof rests on four wooden supports."
+  },
+  "swamp": {
+    "cn": "这片沼泽是许多种鸟类的栖息地。",
+    "en": "The swamp is home to many kinds of birds."
+  },
+  "tack": {
+    "cn": "我们需要在这些谈判中采取不同的行动方针。",
+    "en": "We need to take a different tack in these negotiations."
+  },
+  "tackle": {
+    "cn": "我们需要处理空气污染问题。",
+    "en": "We need to tackle the problem of air pollution."
+  },
+  "tame": {
+    "cn": "看过精彩的预告片后，这部电影显得枯燥无味。",
+    "en": "The film seemed tame after the exciting trailer."
+  },
+  "tender": {
+    "cn": "慢慢炖肉，直到肉变嫩。",
+    "en": "Cook the meat slowly until it is tender."
+  },
+  "tenor": {
+    "cn": "她演讲的大意是乐观的。",
+    "en": "The general tenor of her speech was optimistic."
+  },
+  "there": {
+    "cn": "把箱子放在那边的门旁。",
+    "en": "Put the box over there by the door."
+  },
+  "thrust": {
+    "cn": "发动机产生足够的推力，使火箭升空。",
+    "en": "The engine produces enough thrust to lift the rocket."
+  },
+  "thumb": {
+    "cn": "他开箱子时伤了大拇指。",
+    "en": "He injured his thumb while opening the box."
+  },
+  "tie": {
+    "cn": "请把绳子系在柱子上。",
+    "en": "Please tie the rope to the post."
+  },
+  "timber": {
+    "cn": "他们用木材建造了小屋。",
+    "en": "They used timber to build the cabin."
+  },
+  "tire": {
+    "cn": "长途旅行可能使年幼的孩子感到疲倦。",
+    "en": "Long journeys can tire young children."
+  },
+  "tires": {
+    "cn": "长途旅行使他感到疲倦。",
+    "en": "The long journey tires him."
+  },
+  "tissue": {
+    "cn": "这个样本含有健康的肌肉组织。",
+    "en": "The sample contains healthy muscle tissue."
+  },
+  "toast": {
+    "cn": "我早餐吃了一片烤面包。",
+    "en": "I had a slice of toast for breakfast."
+  },
+  "tops": {
+    "cn": "把瓶盖盖回瓶子上。",
+    "en": "Put the tops back on the bottles."
+  },
+  "torn": {
+    "cn": "她更换了撕裂的窗帘。",
+    "en": "She replaced the torn curtain."
+  },
+  "toss": {
+    "cn": "把球轻轻抛给你的同伴。",
+    "en": "Toss the ball gently to your partner."
+  },
+  "traditional": {
+    "cn": "他们穿着传统服装庆祝节日。",
+    "en": "They wore traditional clothing for the festival."
+  },
+  "tributary": {
+    "cn": "这条小溪是那条大河的一条支流。",
+    "en": "This stream is a tributary of the larger river."
+  },
+  "trick": {
+    "cn": "他用一个巧妙的诀窍打开了锁着的盒子。",
+    "en": "He used a clever trick to open the locked box."
+  },
+  "trim": {
+    "cn": "她把花园打理得干净整洁。",
+    "en": "She kept the garden neat and trim."
+  },
+  "triumph": {
+    "cn": "赢得冠军对这个团队来说是一次伟大的胜利。",
+    "en": "Winning the championship was a great triumph for the team."
+  },
+  "trophy": {
+    "cn": "士兵们带着一件战利品从战场归来。",
+    "en": "The soldiers returned with a trophy from the battle."
+  },
+  "trunk": {
+    "cn": "大象用鼻子卷起了一根树枝。",
+    "en": "The elephant lifted a branch with its trunk."
+  },
+  "turf": {
+    "cn": "他们在花园里铺了新草皮。",
+    "en": "They laid fresh turf in the garden."
+  },
+  "turn": {
+    "cn": "转动把手开门。",
+    "en": "Turn the handle to open the door."
+  },
+  "underline": {
+    "cn": "这些结果强调了进一步研究的必要性。",
+    "en": "These results underline the need for further research."
+  },
+  "undo": {
+    "cn": "点击这个按钮可以撤销上一次修改。",
+    "en": "You can undo the last change by clicking this button."
+  },
+  "unload": {
+    "cn": "工人们从卡车上卸下箱子。",
+    "en": "The workers unload the boxes from the truck."
+  },
+  "unwind": {
+    "cn": "下班后我听音乐放松。",
+    "en": "I listen to music to unwind after work."
+  },
+  "up": {
+    "cn": "她向上看着天空。",
+    "en": "She looked up at the sky."
+  },
+  "upon": {
+    "cn": "她把花瓶放在桌子上。",
+    "en": "She placed the vase upon the table."
+  },
+  "vacant": {
+    "cn": "酒店里有两个空房间。",
+    "en": "There are two vacant rooms in the hotel."
+  },
+  "vent": {
+    "cn": "热空气通过屋顶的排气口排出。",
+    "en": "Hot air escapes through a vent in the roof."
+  },
+  "violet": {
+    "cn": "一株紫罗兰长在小路旁。",
+    "en": "A violet grew beside the path."
+  },
+  "virgin": {
+    "cn": "这条路穿过未开发的原始森林。",
+    "en": "The road runs through virgin forest."
+  },
+  "visions": {
+    "cn": "两位领导人分享了他们对未来的愿景。",
+    "en": "The two leaders shared their visions for the future."
+  },
+  "void": {
+    "cn": "他的离开给团队留下了一片空白。",
+    "en": "His departure left a void in the team."
+  },
+  "volatile": {
+    "cn": "这种易挥发的液体必须保存在密封容器中。",
+    "en": "This volatile liquid must be stored in a sealed container."
+  },
+  "warrant": {
+    "cn": "这些症状使进一步的医学检查成为必要。",
+    "en": "These symptoms warrant further medical tests."
+  },
+  "wet": {
+    "cn": "雨后她的鞋子是湿的。",
+    "en": "Her shoes were wet after the rain."
+  },
+  "wheel": {
+    "cn": "自行车的前轮损坏了。",
+    "en": "The front wheel of the bicycle is damaged."
+  },
+  "whirlwind": {
+    "cn": "准备工作变成了一片忙乱。",
+    "en": "The preparations became a whirlwind of activity."
+  },
+  "width": {
+    "cn": "测量门的宽度。",
+    "en": "Measure the width of the door."
+  },
+  "within": {
+    "cn": "请在一小时内完成任务。",
+    "en": "Please finish the task within an hour."
+  },
+  "wool": {
+    "cn": "这件毛衣是羊毛制成的。",
+    "en": "This sweater is made of wool."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "雅思核心词汇12155",
+  "version": "0.2.0",
+  "model_id": 1926101201,
+  "model_name": "雅思词汇 · 英文认词",
+  "fields": [
+    "Word",
+    "IPA",
+    "Meaning",
+    "Frequency",
+    "Group",
+    "AudioURL",
+    "Source",
+    "CambridgeURL",
+    "WiktionaryURL",
+    "IPANote",
+    "Example1",
+    "Translation1",
+    "Attribution1",
+    "Example2",
+    "Translation2",
+    "Attribution2",
+    "WordAudio",
+    "Example1Audio",
+    "Example2Audio",
+    "EntryNote",
+    "Morphology",
+    "WordFamily"
+  ],
+  "decks": {
+    "1926101211": {
+      "name": "雅思核心词汇12155::1 · 出现100次以上"
+    },
+    "1926101212": {
+      "name": "雅思核心词汇12155::2 · 出现40~99次"
+    },
+    "1926101213": {
+      "name": "雅思核心词汇12155::3 · 出现20~39次"
+    },
+    "1926101214": {
+      "name": "雅思核心词汇12155::4 · 出现10~19次"
+    },
+    "1926101215": {
+      "name": "雅思核心词汇12155::5 · 出现6~9次"
+    }
+  },
+  "repository": "https://github.com/tentyou/anki-ielts-decks"
+}

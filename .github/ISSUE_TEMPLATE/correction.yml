@@ -1,0 +1,35 @@
+name: 词条或例句纠错
+description: 反馈词义、词性、翻译、构词或音频问题
+title: "[纠错] 单词"
+labels: []
+body:
+  - type: input
+    id: word
+    attributes:
+      label: 单词与版本
+      placeholder: "crane / v0.2.0"
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: 当前内容与问题
+      description: 请提供所列词义、例句或构词内容，说明具体哪里不一致。
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议修正与依据
+      description: 可附词典链接、上下文，或你建议的中英文例句。
+  - type: dropdown
+    id: category
+    attributes:
+      label: 问题类型
+      options:
+        - 词义或词性错配
+        - 中文翻译
+        - 构词或词族
+        - 发音或音标
+        - 模板或导入
+        - 其他

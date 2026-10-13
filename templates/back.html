@@ -1,0 +1,13 @@
+<main id="BackSide" class="CardSide">
+ <div class="Top"><span class="Level">{{Group}} · {{Frequency}} 次</span><a href="{{CambridgeURL}}">Cambridge ↗</a></div>
+ <header class="Question compact"><h1 lang="en">{{Word}}</h1><div class="audio">{{WordAudio}}</div></header>
+ <section class="Answer"><div class="ipa">/{{IPA}}/</div><div class="meaning"><span class="label">释义</span>{{Meaning}}</div></section>
+ {{#Morphology}}<section class="morphology"><div class="label">构词与记忆</div><div class="morph-content">{{Morphology}}</div></section>{{/Morphology}}
+{{#WordFamily}}<section class="word-family"><span class="label">词族</span>{{WordFamily}}</section>{{/WordFamily}}
+ <ul class="SentenceList">
+ {{#Example1}}<li class="Sentence"><div class="sentence-head"><span class="label">例句 1</span></div><div class="en" lang="en">{{Example1}}</div>{{#Translation1}}<div class="cn">{{Translation1}}</div>{{/Translation1}}<div class="attribution">{{Attribution1}}</div></li>{{/Example1}}
+ {{#Example2}}<li class="Sentence"><div class="sentence-head"><span class="label">例句 2</span></div><div class="en" lang="en">{{Example2}}</div>{{#Translation2}}<div class="cn">{{Translation2}}</div>{{/Translation2}}<div class="attribution">{{Attribution2}}</div></li>{{/Example2}}
+ </ul>
+ {{^Example1}}<div class="empty">暂未匹配到可靠的双语例句，可点击词典入口查阅。</div>{{/Example1}}
+ <footer class="sources"><a href="{{CambridgeURL}}">Cambridge</a> · <a href="{{WiktionaryURL}}">Wiktionary</a> · <a href="{{Source}}">原词表</a> · <a href="https://isdc.pages.dev/">雅思词典参考</a> · <a href="https://github.com/tentyou/anki-ielts-decks/issues/new?template=correction.yml">反馈纠错</a></footer>
+</main>
